@@ -1,0 +1,9399 @@
+[
+{
+"id": "L1-001",
+"lv": 1,
+"hz": "爱",
+"py": "ài",
+"tones": [
+4
+],
+"def": "love; affection; be fond of",
+"pyAlt": [
+"ǎi",
+"ái",
+"āi"
+]
+},
+{
+"id": "L1-002",
+"lv": 1,
+"hz": "八",
+"py": "bā",
+"tones": [
+1
+],
+"def": "eight",
+"pyAlt": [
+"bǎ",
+"bà",
+"bá"
+]
+},
+{
+"id": "L1-003",
+"lv": 1,
+"hz": "爸爸",
+"py": "bàba",
+"tones": [
+4,
+5
+],
+"def": "(informal) father; Dad",
+"pyAlt": [
+"bǎba",
+"bǎbá",
+"bábá"
+]
+},
+{
+"id": "L1-004",
+"lv": 1,
+"hz": "杯子",
+"py": "bēizi",
+"tones": [
+1,
+5
+],
+"def": "cup; glass",
+"pyAlt": [
+"béizì",
+"béizí",
+"běizí"
+]
+},
+{
+"id": "L1-005",
+"lv": 1,
+"hz": "北京",
+"py": "Běijīng",
+"tones": [
+3,
+1
+],
+"def": "Beijing (capital of China)",
+"pyAlt": [
+"béijìng",
+"běijìng",
+"bèijìng"
+]
+},
+{
+"id": "L1-006",
+"lv": 1,
+"hz": "本",
+"py": "běn",
+"tones": [
+3
+],
+"def": "(mw for books); roots or stems of plants; origin",
+"pyAlt": [
+"bèn",
+"bēn",
+"bén"
+]
+},
+{
+"id": "L1-007",
+"lv": 1,
+"hz": "不",
+"py": "bù",
+"tones": [
+4
+],
+"def": "no; not",
+"pyAlt": [
+"bū",
+"bú",
+"bǔ"
+]
+},
+{
+"id": "L1-008",
+"lv": 1,
+"hz": "不客气",
+"py": "búkèqi",
+"tones": [
+2,
+4,
+5
+],
+"def": "you're welcome; don't be polite; impolite",
+"pyAlt": [
+"bùkēqì",
+"būkèqī",
+"búkěqì"
+]
+},
+{
+"id": "L1-009",
+"lv": 1,
+"hz": "菜",
+"py": "cài",
+"tones": [
+4
+],
+"def": "dish (type of food); vegetables",
+"pyAlt": [
+"cāi",
+"cǎi",
+"cái"
+]
+},
+{
+"id": "L1-010",
+"lv": 1,
+"hz": "茶",
+"py": "chá",
+"tones": [
+2
+],
+"def": "tea",
+"pyAlt": [
+"chǎ",
+"chà",
+"chā"
+]
+},
+{
+"id": "L1-011",
+"lv": 1,
+"hz": "吃",
+"py": "chī",
+"tones": [
+1
+],
+"def": "eat",
+"pyAlt": [
+"chì",
+"chǐ",
+"chí"
+]
+},
+{
+"id": "L1-012",
+"lv": 1,
+"hz": "出租车",
+"py": "chūzūchē",
+"tones": [
+1,
+1,
+1
+],
+"def": "taxi; cab",
+"pyAlt": [
+"chùzǔchē",
+"chūzúchě",
+"chūzǔché"
+]
+},
+{
+"id": "L1-013",
+"lv": 1,
+"hz": "打电话",
+"py": "dǎdiànhuà",
+"tones": [
+3,
+4,
+4
+],
+"def": "make a phone call",
+"pyAlt": [
+"dádiánhuā",
+"dǎdiànhuǎ",
+"dádiánhuá"
+]
+},
+{
+"id": "L1-014",
+"lv": 1,
+"hz": "大",
+"py": "dà",
+"tones": [
+4
+],
+"def": "big; large; person of importance",
+"pyAlt": [
+"dǎ",
+"dá",
+"dā"
+]
+},
+{
+"id": "L1-015",
+"lv": 1,
+"hz": "的",
+"py": "de",
+"tones": [
+5
+],
+"def": "(possessive, modifying, or descriptive particle)",
+"pyAlt": [
+"dè",
+"dě",
+"dé"
+]
+},
+{
+"id": "L1-016",
+"lv": 1,
+"hz": "点",
+"py": "diǎn",
+"tones": [
+3
+],
+"def": "a dot; a point; a bit",
+"pyAlt": [
+"diān",
+"dián",
+"diàn"
+]
+},
+{
+"id": "L1-017",
+"lv": 1,
+"hz": "电脑",
+"py": "diànnǎo",
+"tones": [
+4,
+3
+],
+"def": "computer",
+"pyAlt": [
+"diánnáo",
+"diánnāo",
+"diànnáo"
+]
+},
+{
+"id": "L1-018",
+"lv": 1,
+"hz": "电视",
+"py": "diànshì",
+"tones": [
+4,
+4
+],
+"def": "television; TV",
+"pyAlt": [
+"diǎnshí",
+"diānshǐ",
+"diǎnshǐ"
+]
+},
+{
+"id": "L1-019",
+"lv": 1,
+"hz": "电影",
+"py": "diànyǐng",
+"tones": [
+4,
+3
+],
+"def": "movie; film",
+"pyAlt": [
+"diǎnyīng",
+"diǎnyǐng",
+"diànyīng"
+]
+},
+{
+"id": "L1-020",
+"lv": 1,
+"hz": "东西",
+"py": "dōngxi",
+"tones": [
+1,
+5
+],
+"def": "thing; objects; stuff",
+"pyAlt": [
+"dōngxí",
+"dòngxí",
+"dòngxi"
+]
+},
+{
+"id": "L1-021",
+"lv": 1,
+"hz": "都",
+"py": "dōu",
+"tones": [
+1
+],
+"def": "all; both (if two things are involved); capital",
+"pyAlt": [
+"dòu",
+"dǒu",
+"dóu"
+]
+},
+{
+"id": "L1-022",
+"lv": 1,
+"hz": "读",
+"py": "dú",
+"tones": [
+2
+],
+"def": "to read; to study",
+"pyAlt": [
+"dū",
+"dù",
+"dǔ"
+]
+},
+{
+"id": "L1-023",
+"lv": 1,
+"hz": "对不起",
+"py": "duìbuqǐ",
+"tones": [
+4,
+5,
+3
+],
+"def": "sorry",
+"pyAlt": [
+"duǐbǔqǐ",
+"duībuqǐ",
+"duíbúqī"
+]
+},
+{
+"id": "L1-024",
+"lv": 1,
+"hz": "多",
+"py": "duō",
+"tones": [
+1
+],
+"def": "many; much; a lot of",
+"pyAlt": [
+"duó",
+"duǒ",
+"duò"
+]
+},
+{
+"id": "L1-025",
+"lv": 1,
+"hz": "多少",
+"py": "duōshao",
+"tones": [
+1,
+5
+],
+"def": "how much; how many; which (number)",
+"pyAlt": [
+"duōshǎo",
+"duōshāo",
+"duósháo"
+]
+},
+{
+"id": "L1-026",
+"lv": 1,
+"hz": "儿子",
+"py": "érzi",
+"tones": [
+2,
+5
+],
+"def": "son",
+"pyAlt": [
+"ērzí",
+"ěrzī",
+"èrzí"
+]
+},
+{
+"id": "L1-027",
+"lv": 1,
+"hz": "二",
+"py": "èr",
+"tones": [
+4
+],
+"def": "two",
+"pyAlt": [
+"ér",
+"ēr",
+"ěr"
+]
+},
+{
+"id": "L1-028",
+"lv": 1,
+"hz": "饭店",
+"py": "fàndiàn",
+"tones": [
+4,
+4
+],
+"def": "restaurant; hotel",
+"pyAlt": [
+"fǎndiān",
+"fāndiān",
+"fándiàn"
+]
+},
+{
+"id": "L1-029",
+"lv": 1,
+"hz": "飞机",
+"py": "fēijī",
+"tones": [
+1,
+1
+],
+"def": "airplane",
+"pyAlt": [
+"fēijǐ",
+"fèijī",
+"féijí"
+]
+},
+{
+"id": "L1-030",
+"lv": 1,
+"hz": "分钟",
+"py": "fēnzhōng",
+"tones": [
+1,
+1
+],
+"def": "minute; (mw for time)",
+"pyAlt": [
+"fénzhǒng",
+"fènzhǒng",
+"fènzhòng"
+]
+},
+{
+"id": "L1-031",
+"lv": 1,
+"hz": "高兴",
+"py": "gāoxìng",
+"tones": [
+1,
+4
+],
+"def": "happy; glad; willing (do something)",
+"pyAlt": [
+"gāoxīng",
+"gáoxíng",
+"gǎoxīng"
+]
+},
+{
+"id": "L1-032",
+"lv": 1,
+"hz": "个",
+"py": "ge",
+"tones": [
+5
+],
+"def": "general measure word",
+"pyAlt": [
+"gě",
+"gē",
+"gé"
+]
+},
+{
+"id": "L1-033",
+"lv": 1,
+"hz": "工作",
+"py": "gōngzuò",
+"tones": [
+1,
+4
+],
+"def": "work; a job",
+"pyAlt": [
+"gòngzuó",
+"gǒngzuò",
+"góngzuō"
+]
+},
+{
+"id": "L1-034",
+"lv": 1,
+"hz": "狗",
+"py": "gǒu",
+"tones": [
+3
+],
+"def": "dog",
+"pyAlt": [
+"gòu",
+"góu",
+"gōu"
+]
+},
+{
+"id": "L1-035",
+"lv": 1,
+"hz": "汉语",
+"py": "Hànyǔ",
+"tones": [
+4,
+3
+],
+"def": "Chinese language",
+"pyAlt": [
+"hányù",
+"hànyú",
+"hányú"
+]
+},
+{
+"id": "L1-036",
+"lv": 1,
+"hz": "好",
+"py": "hǎo",
+"tones": [
+3
+],
+"def": "good; well; nice",
+"pyAlt": [
+"hāo",
+"hào",
+"háo"
+]
+},
+{
+"id": "L1-037",
+"lv": 1,
+"hz": "号",
+"py": "hào",
+"tones": [
+4
+],
+"def": "number; day of a month; (mw for ordinal numbers)",
+"pyAlt": [
+"hāo",
+"hǎo",
+"háo"
+]
+},
+{
+"id": "L1-038",
+"lv": 1,
+"hz": "喝",
+"py": "hē",
+"tones": [
+1
+],
+"def": "to drink; interjection expressing surprise",
+"pyAlt": [
+"hè",
+"hé",
+"hě"
+]
+},
+{
+"id": "L1-039",
+"lv": 1,
+"hz": "和",
+"py": "hé",
+"tones": [
+2
+],
+"def": "and; with; harmony",
+"pyAlt": [
+"hē",
+"hè",
+"hě"
+]
+},
+{
+"id": "L1-040",
+"lv": 1,
+"hz": "很",
+"py": "hěn",
+"tones": [
+3
+],
+"def": "very; rather; quite",
+"pyAlt": [
+"hēn",
+"hèn",
+"hén"
+]
+},
+{
+"id": "L1-041",
+"lv": 1,
+"hz": "后面",
+"py": "hòumian",
+"tones": [
+4,
+5
+],
+"def": "rear; back; behind",
+"pyAlt": [
+"hòumiān",
+"hóumiàn",
+"hòumián"
+]
+},
+{
+"id": "L1-042",
+"lv": 1,
+"hz": "回",
+"py": "huí",
+"tones": [
+2
+],
+"def": "to return; to reply; to go back",
+"pyAlt": [
+"huǐ",
+"huī",
+"huì"
+]
+},
+{
+"id": "L1-043",
+"lv": 1,
+"hz": "会",
+"py": "huì",
+"tones": [
+4
+],
+"def": "know how; be good at; be likely to",
+"pyAlt": [
+"huī",
+"huí",
+"huǐ"
+]
+},
+{
+"id": "L1-044",
+"lv": 1,
+"hz": "几",
+"py": "jǐ",
+"tones": [
+3
+],
+"def": "how many; several; a few",
+"pyAlt": [
+"jì",
+"jī",
+"jí"
+]
+},
+{
+"id": "L1-045",
+"lv": 1,
+"hz": "家",
+"py": "jiā",
+"tones": [
+1
+],
+"def": "family; home; household",
+"pyAlt": [
+"jiá",
+"jià",
+"jiǎ"
+]
+},
+{
+"id": "L1-046",
+"lv": 1,
+"hz": "叫",
+"py": "jiào",
+"tones": [
+4
+],
+"def": "to call; called; to yell",
+"pyAlt": [
+"jiǎo",
+"jiāo",
+"jiáo"
+]
+},
+{
+"id": "L1-047",
+"lv": 1,
+"hz": "今天",
+"py": "jīntiān",
+"tones": [
+1,
+1
+],
+"def": "today; at the present; now",
+"pyAlt": [
+"jíntián",
+"jīntiǎn",
+"jìntián"
+]
+},
+{
+"id": "L1-048",
+"lv": 1,
+"hz": "九",
+"py": "jiǔ",
+"tones": [
+3
+],
+"def": "nine",
+"pyAlt": [
+"jiū",
+"jiù",
+"jiú"
+]
+},
+{
+"id": "L1-049",
+"lv": 1,
+"hz": "开",
+"py": "kāi",
+"tones": [
+1
+],
+"def": "to open; to start; to turn on",
+"pyAlt": [
+"kái",
+"kài",
+"kǎi"
+]
+},
+{
+"id": "L1-050",
+"lv": 1,
+"hz": "看",
+"py": "kàn",
+"tones": [
+4
+],
+"def": "see; look at; to watch",
+"pyAlt": [
+"kǎn",
+"kán",
+"kān"
+]
+},
+{
+"id": "L1-051",
+"lv": 1,
+"hz": "看见",
+"py": "kànjiàn",
+"tones": [
+4,
+4
+],
+"def": "see; catch sight of",
+"pyAlt": [
+"kānjiān",
+"kānjiàn",
+"kǎnjiǎn"
+]
+},
+{
+"id": "L1-052",
+"lv": 1,
+"hz": "块",
+"py": "kuài",
+"tones": [
+4
+],
+"def": "lump; (mw: piece, chunk, sum of money)",
+"pyAlt": [
+"kuāi",
+"kuǎi",
+"kuái"
+]
+},
+{
+"id": "L1-053",
+"lv": 1,
+"hz": "来",
+"py": "lái",
+"tones": [
+2
+],
+"def": "come; arrive; ever since",
+"pyAlt": [
+"lài",
+"lāi",
+"lǎi"
+]
+},
+{
+"id": "L1-054",
+"lv": 1,
+"hz": "老师",
+"py": "lǎoshī",
+"tones": [
+3,
+1
+],
+"def": "teacher",
+"pyAlt": [
+"láoshí",
+"lāoshī",
+"làoshī"
+]
+},
+{
+"id": "L1-055",
+"lv": 1,
+"hz": "了",
+"py": "le",
+"tones": [
+5
+],
+"def": "(particle for a new situation or completed action)",
+"pyAlt": [
+"lē",
+"lè",
+"lě"
+]
+},
+{
+"id": "L1-056",
+"lv": 1,
+"hz": "冷",
+"py": "lěng",
+"tones": [
+3
+],
+"def": "cold",
+"pyAlt": [
+"léng",
+"lèng",
+"lēng"
+]
+},
+{
+"id": "L1-057",
+"lv": 1,
+"hz": "里",
+"py": "lǐ",
+"tones": [
+3
+],
+"def": "inside; internal; village, Chinese mile (~.5 km)",
+"pyAlt": [
+"lī",
+"lí",
+"lì"
+]
+},
+{
+"id": "L1-058",
+"lv": 1,
+"hz": "六",
+"py": "liù",
+"tones": [
+4
+],
+"def": "six",
+"pyAlt": [
+"liū",
+"liú",
+"liǔ"
+]
+},
+{
+"id": "L1-059",
+"lv": 1,
+"hz": "妈妈",
+"py": "māma",
+"tones": [
+1,
+5
+],
+"def": "mom",
+"pyAlt": [
+"mámá",
+"mámǎ",
+"màma"
+]
+},
+{
+"id": "L1-060",
+"lv": 1,
+"hz": "吗",
+"py": "ma",
+"tones": [
+5
+],
+"def": "(question particle for yes/no questions)",
+"pyAlt": [
+"mǎ",
+"má",
+"mā"
+]
+},
+{
+"id": "L1-061",
+"lv": 1,
+"hz": "买",
+"py": "mǎi",
+"tones": [
+3
+],
+"def": "to buy",
+"pyAlt": [
+"mái",
+"mài",
+"māi"
+]
+},
+{
+"id": "L1-062",
+"lv": 1,
+"hz": "猫",
+"py": "māo",
+"tones": [
+1
+],
+"def": "cat",
+"pyAlt": [
+"mào",
+"máo",
+"mǎo"
+]
+},
+{
+"id": "L1-063",
+"lv": 1,
+"hz": "没关系",
+"py": "méiguānxi",
+"tones": [
+2,
+1,
+5
+],
+"def": "it doesn't matter; never mind",
+"pyAlt": [
+"méiguānxǐ",
+"mèiguānxì",
+"mēiguǎnxì"
+]
+},
+{
+"id": "L1-064",
+"lv": 1,
+"hz": "没有",
+"py": "méiyǒu",
+"tones": [
+2,
+3
+],
+"def": "not have; there is not; haven't",
+"pyAlt": [
+"mēiyòu",
+"mèiyóu",
+"méiyóu"
+]
+},
+{
+"id": "L1-065",
+"lv": 1,
+"hz": "米饭",
+"py": "mǐfàn",
+"tones": [
+3,
+4
+],
+"def": "(cooked) rice",
+"pyAlt": [
+"mīfān",
+"mìfàn",
+"mífǎn"
+]
+},
+{
+"id": "L1-066",
+"lv": 1,
+"hz": "名字",
+"py": "míngzi",
+"tones": [
+2,
+5
+],
+"def": "name",
+"pyAlt": [
+"míngzí",
+"mǐngzì",
+"mǐngzi"
+]
+},
+{
+"id": "L1-067",
+"lv": 1,
+"hz": "明天",
+"py": "míngtiān",
+"tones": [
+2,
+1
+],
+"def": "tomorrow",
+"pyAlt": [
+"mīngtiàn",
+"míngtiǎn",
+"mìngtiàn"
+]
+},
+{
+"id": "L1-068",
+"lv": 1,
+"hz": "哪",
+"py": "nǎ",
+"tones": [
+3
+],
+"def": "which; how",
+"pyAlt": [
+"nā",
+"nà",
+"ná"
+]
+},
+{
+"id": "L1-069",
+"lv": 1,
+"hz": "哪儿",
+"py": "nǎr",
+"tones": [
+3,
+5
+],
+"def": "where; wherever (Beijing accent)",
+"pyAlt": [
+"nār",
+"nàr",
+"nár"
+]
+},
+{
+"id": "L1-070",
+"lv": 1,
+"hz": "那",
+"py": "nà",
+"tones": [
+4
+],
+"def": "that; in that case; then",
+"pyAlt": [
+"nǎ",
+"ná",
+"nā"
+]
+},
+{
+"id": "L1-071",
+"lv": 1,
+"hz": "呢",
+"py": "ne",
+"tones": [
+5
+],
+"def": "(modal particle ending a question); how about...?",
+"pyAlt": [
+"nē",
+"ně",
+"né"
+]
+},
+{
+"id": "L1-072",
+"lv": 1,
+"hz": "能",
+"py": "néng",
+"tones": [
+2
+],
+"def": "can; be able; capable",
+"pyAlt": [
+"nēng",
+"nèng",
+"něng"
+]
+},
+{
+"id": "L1-073",
+"lv": 1,
+"hz": "你",
+"py": "nǐ",
+"tones": [
+3
+],
+"def": "you (singular)",
+"pyAlt": [
+"nī",
+"nì",
+"ní"
+]
+},
+{
+"id": "L1-074",
+"lv": 1,
+"hz": "年",
+"py": "nián",
+"tones": [
+2
+],
+"def": "year",
+"pyAlt": [
+"niǎn",
+"niàn",
+"niān"
+]
+},
+{
+"id": "L1-075",
+"lv": 1,
+"hz": "女儿",
+"py": "nǚ'ér",
+"tones": [
+3,
+2
+],
+"def": "daughter",
+"pyAlt": [
+"nǖ'ér",
+"nǘ'ēr",
+"nǜ'ēr"
+]
+},
+{
+"id": "L1-076",
+"lv": 1,
+"hz": "朋友",
+"py": "péngyou",
+"tones": [
+2,
+5
+],
+"def": "friend",
+"pyAlt": [
+"pèngyòu",
+"pěngyou",
+"pěngyōu"
+]
+},
+{
+"id": "L1-077",
+"lv": 1,
+"hz": "漂亮",
+"py": "piàoliang",
+"tones": [
+4,
+5
+],
+"def": "pretty; beautiful",
+"pyAlt": [
+"piàoliàng",
+"piǎoliāng",
+"piáoliǎng"
+]
+},
+{
+"id": "L1-078",
+"lv": 1,
+"hz": "苹果",
+"py": "píngguǒ",
+"tones": [
+2,
+3
+],
+"def": "apple",
+"pyAlt": [
+"pǐngguó",
+"píngguò",
+"pǐngguō"
+]
+},
+{
+"id": "L1-079",
+"lv": 1,
+"hz": "七",
+"py": "qī",
+"tones": [
+1
+],
+"def": "seven",
+"pyAlt": [
+"qí",
+"qǐ",
+"qì"
+]
+},
+{
+"id": "L1-080",
+"lv": 1,
+"hz": "前面",
+"py": "qiánmiàn",
+"tones": [
+2,
+4
+],
+"def": "in front; fore; at the head",
+"pyAlt": [
+"qiánmiǎn",
+"qiǎnmiǎn",
+"qiānmiǎn"
+]
+},
+{
+"id": "L1-081",
+"lv": 1,
+"hz": "钱",
+"py": "qián",
+"tones": [
+2
+],
+"def": "money; coin",
+"pyAlt": [
+"qiàn",
+"qiǎn",
+"qiān"
+]
+},
+{
+"id": "L1-082",
+"lv": 1,
+"hz": "请",
+"py": "qǐng",
+"tones": [
+3
+],
+"def": "please; invite; to request",
+"pyAlt": [
+"qíng",
+"qīng",
+"qìng"
+]
+},
+{
+"id": "L1-083",
+"lv": 1,
+"hz": "去",
+"py": "qù",
+"tones": [
+4
+],
+"def": "go; to leave",
+"pyAlt": [
+"qū",
+"qú",
+"qǔ"
+]
+},
+{
+"id": "L1-084",
+"lv": 1,
+"hz": "热",
+"py": "rè",
+"tones": [
+4
+],
+"def": "heat; hot; heat up",
+"pyAlt": [
+"ré",
+"rě",
+"rē"
+]
+},
+{
+"id": "L1-085",
+"lv": 1,
+"hz": "人",
+"py": "rén",
+"tones": [
+2
+],
+"def": "person; man; people",
+"pyAlt": [
+"rèn",
+"rēn",
+"rěn"
+]
+},
+{
+"id": "L1-086",
+"lv": 1,
+"hz": "认识",
+"py": "rènshi",
+"tones": [
+4,
+5
+],
+"def": "know; recognize; acquainted with (a person)",
+"pyAlt": [
+"rěnshī",
+"rēnshi",
+"rénshī"
+]
+},
+{
+"id": "L1-087",
+"lv": 1,
+"hz": "三",
+"py": "sān",
+"tones": [
+1
+],
+"def": "three",
+"pyAlt": [
+"sàn",
+"sǎn",
+"sán"
+]
+},
+{
+"id": "L1-088",
+"lv": 1,
+"hz": "商店",
+"py": "shāngdiàn",
+"tones": [
+1,
+4
+],
+"def": "shop; store",
+"pyAlt": [
+"shángdiǎn",
+"shāngdián",
+"shángdián"
+]
+},
+{
+"id": "L1-089",
+"lv": 1,
+"hz": "上",
+"py": "shàng",
+"tones": [
+4
+],
+"def": "above; up; on top",
+"pyAlt": [
+"sháng",
+"shāng",
+"shǎng"
+]
+},
+{
+"id": "L1-090",
+"lv": 1,
+"hz": "上午",
+"py": "shàngwǔ",
+"tones": [
+4,
+3
+],
+"def": "late morning (before noon)",
+"pyAlt": [
+"shǎngwū",
+"shāngwǔ",
+"shāngwū"
+]
+},
+{
+"id": "L1-091",
+"lv": 1,
+"hz": "少",
+"py": "shǎo",
+"tones": [
+3
+],
+"def": "few; little; lack",
+"pyAlt": [
+"shào",
+"shāo",
+"sháo"
+]
+},
+{
+"id": "L1-092",
+"lv": 1,
+"hz": "谁",
+"py": "shéi",
+"tones": [
+2
+],
+"def": "who",
+"pyAlt": [
+"shěi",
+"shèi",
+"shēi"
+]
+},
+{
+"id": "L1-093",
+"lv": 1,
+"hz": "什么",
+"py": "shénme",
+"tones": [
+2,
+5
+],
+"def": "what; whatever; something",
+"pyAlt": [
+"shènmè",
+"shěnmě",
+"shènmé"
+]
+},
+{
+"id": "L1-094",
+"lv": 1,
+"hz": "十",
+"py": "shí",
+"tones": [
+2
+],
+"def": "ten",
+"pyAlt": [
+"shì",
+"shǐ",
+"shī"
+]
+},
+{
+"id": "L1-095",
+"lv": 1,
+"hz": "时候",
+"py": "shíhou",
+"tones": [
+2,
+5
+],
+"def": "time; length of time; moment",
+"pyAlt": [
+"shìhòu",
+"shǐhóu",
+"shǐhǒu"
+]
+},
+{
+"id": "L1-096",
+"lv": 1,
+"hz": "是",
+"py": "shì",
+"tones": [
+4
+],
+"def": "be; is; are",
+"pyAlt": [
+"shǐ",
+"shī",
+"shí"
+]
+},
+{
+"id": "L1-097",
+"lv": 1,
+"hz": "书",
+"py": "shū",
+"tones": [
+1
+],
+"def": "book; letter",
+"pyAlt": [
+"shú",
+"shǔ",
+"shù"
+]
+},
+{
+"id": "L1-098",
+"lv": 1,
+"hz": "水",
+"py": "shuǐ",
+"tones": [
+3
+],
+"def": "water",
+"pyAlt": [
+"shuì",
+"shuī",
+"shuí"
+]
+},
+{
+"id": "L1-099",
+"lv": 1,
+"hz": "水果",
+"py": "shuǐguǒ",
+"tones": [
+3,
+3
+],
+"def": "fruit",
+"pyAlt": [
+"shuíguó",
+"shuìguō",
+"shuíguō"
+]
+},
+{
+"id": "L1-100",
+"lv": 1,
+"hz": "睡觉",
+"py": "shuìjiào",
+"tones": [
+4,
+4
+],
+"def": "to sleep; go to bed",
+"pyAlt": [
+"shuíjiāo",
+"shuījiáo",
+"shuījiāo"
+]
+},
+{
+"id": "L1-101",
+"lv": 1,
+"hz": "说",
+"py": "shuō",
+"tones": [
+1
+],
+"def": "speak; to say; to talk",
+"pyAlt": [
+"shuǒ",
+"shuò",
+"shuó"
+]
+},
+{
+"id": "L1-102",
+"lv": 1,
+"hz": "四",
+"py": "sì",
+"tones": [
+4
+],
+"def": "four",
+"pyAlt": [
+"sí",
+"sī",
+"sǐ"
+]
+},
+{
+"id": "L1-103",
+"lv": 1,
+"hz": "岁",
+"py": "suì",
+"tones": [
+4
+],
+"def": "years old",
+"pyAlt": [
+"suī",
+"suǐ",
+"suí"
+]
+},
+{
+"id": "L1-104",
+"lv": 1,
+"hz": "他",
+"py": "tā",
+"tones": [
+1
+],
+"def": "he; him",
+"pyAlt": [
+"tá",
+"tǎ",
+"tà"
+]
+},
+{
+"id": "L1-105",
+"lv": 1,
+"hz": "她",
+"py": "tā",
+"tones": [
+1
+],
+"def": "she",
+"pyAlt": [
+"tá",
+"tà",
+"tǎ"
+]
+},
+{
+"id": "L1-106",
+"lv": 1,
+"hz": "太",
+"py": "tài",
+"tones": [
+4
+],
+"def": "too (much); excessively; highest",
+"pyAlt": [
+"tǎi",
+"tái",
+"tāi"
+]
+},
+{
+"id": "L1-107",
+"lv": 1,
+"hz": "天气",
+"py": "tiānqì",
+"tones": [
+1,
+4
+],
+"def": "weather",
+"pyAlt": [
+"tiánqǐ",
+"tiǎnqí",
+"tiánqī"
+]
+},
+{
+"id": "L1-108",
+"lv": 1,
+"hz": "听",
+"py": "tīng",
+"tones": [
+1
+],
+"def": "listen; hear; heed",
+"pyAlt": [
+"tíng",
+"tǐng",
+"tìng"
+]
+},
+{
+"id": "L1-109",
+"lv": 1,
+"hz": "同学",
+"py": "tóngxué",
+"tones": [
+2,
+2
+],
+"def": "fellow student; schoolmate",
+"pyAlt": [
+"tōngxuě",
+"tóngxuè",
+"tóngxuě"
+]
+},
+{
+"id": "L1-110",
+"lv": 1,
+"hz": "喂",
+"py": "wèi",
+"tones": [
+4
+],
+"def": "hello (on the phone); hey",
+"pyAlt": [
+"wěi",
+"wéi",
+"wēi"
+]
+},
+{
+"id": "L1-111",
+"lv": 1,
+"hz": "我",
+"py": "wǒ",
+"tones": [
+3
+],
+"def": "I; me",
+"pyAlt": [
+"wō",
+"wò",
+"wó"
+]
+},
+{
+"id": "L1-112",
+"lv": 1,
+"hz": "我们",
+"py": "wǒmen",
+"tones": [
+3,
+5
+],
+"def": "we; us",
+"pyAlt": [
+"wómén",
+"wòmèn",
+"wǒměn"
+]
+},
+{
+"id": "L1-113",
+"lv": 1,
+"hz": "五",
+"py": "wǔ",
+"tones": [
+3
+],
+"def": "five",
+"pyAlt": [
+"wù",
+"wú",
+"wū"
+]
+},
+{
+"id": "L1-114",
+"lv": 1,
+"hz": "喜欢",
+"py": "xǐhuan",
+"tones": [
+3,
+5
+],
+"def": "to like; be fond of",
+"pyAlt": [
+"xíhuān",
+"xīhuan",
+"xìhuàn"
+]
+},
+{
+"id": "L1-115",
+"lv": 1,
+"hz": "下",
+"py": "xià",
+"tones": [
+4
+],
+"def": "descend; fall; below",
+"pyAlt": [
+"xiá",
+"xiǎ",
+"xiā"
+]
+},
+{
+"id": "L1-116",
+"lv": 1,
+"hz": "下午",
+"py": "xiàwǔ",
+"tones": [
+4,
+3
+],
+"def": "afternoon",
+"pyAlt": [
+"xiǎwú",
+"xiǎwǔ",
+"xiāwù"
+]
+},
+{
+"id": "L1-117",
+"lv": 1,
+"hz": "下雨",
+"py": "xiàyǔ",
+"tones": [
+4,
+3
+],
+"def": "to rain",
+"pyAlt": [
+"xiǎyǔ",
+"xiǎyù",
+"xiāyū"
+]
+},
+{
+"id": "L1-118",
+"lv": 1,
+"hz": "先生",
+"py": "xiānsheng",
+"tones": [
+1,
+5
+],
+"def": "Mr.; Sir",
+"pyAlt": [
+"xiānshéng",
+"xiānshěng",
+"xiánshěng"
+]
+},
+{
+"id": "L1-119",
+"lv": 1,
+"hz": "现在",
+"py": "xiànzài",
+"tones": [
+4,
+4
+],
+"def": "now",
+"pyAlt": [
+"xiānzài",
+"xiánzāi",
+"xiǎnzǎi"
+]
+},
+{
+"id": "L1-120",
+"lv": 1,
+"hz": "想",
+"py": "xiǎng",
+"tones": [
+3
+],
+"def": "think; believe; suppose",
+"pyAlt": [
+"xiáng",
+"xiàng",
+"xiāng"
+]
+},
+{
+"id": "L1-121",
+"lv": 1,
+"hz": "小",
+"py": "xiǎo",
+"tones": [
+3
+],
+"def": "small; young",
+"pyAlt": [
+"xiāo",
+"xiáo",
+"xiào"
+]
+},
+{
+"id": "L1-122",
+"lv": 1,
+"hz": "小姐",
+"py": "xiǎojie",
+"tones": [
+3,
+5
+],
+"def": "young lady; miss; Ms.",
+"pyAlt": [
+"xiáojiē",
+"xiáojie",
+"xiǎojiè"
+]
+},
+{
+"id": "L1-123",
+"lv": 1,
+"hz": "些",
+"py": "xiē",
+"tones": [
+1
+],
+"def": "some; few; several",
+"pyAlt": [
+"xié",
+"xiě",
+"xiè"
+]
+},
+{
+"id": "L1-124",
+"lv": 1,
+"hz": "写",
+"py": "xiě",
+"tones": [
+3
+],
+"def": "to write; to compose",
+"pyAlt": [
+"xiè",
+"xiē",
+"xié"
+]
+},
+{
+"id": "L1-125",
+"lv": 1,
+"hz": "谢谢",
+"py": "xièxie",
+"tones": [
+4,
+5
+],
+"def": "to thank; thank you",
+"pyAlt": [
+"xiēxiē",
+"xiěxiě",
+"xiēxié"
+]
+},
+{
+"id": "L1-126",
+"lv": 1,
+"hz": "星期",
+"py": "xīngqī",
+"tones": [
+1,
+1
+],
+"def": "week",
+"pyAlt": [
+"xíngqǐ",
+"xǐngqí",
+"xíngqí"
+]
+},
+{
+"id": "L1-127",
+"lv": 1,
+"hz": "学生",
+"py": "xuésheng",
+"tones": [
+2,
+5
+],
+"def": "student",
+"pyAlt": [
+"xuèshěng",
+"xuěshěng",
+"xuēsheng"
+]
+},
+{
+"id": "L1-128",
+"lv": 1,
+"hz": "学习",
+"py": "xuéxí",
+"tones": [
+2,
+2
+],
+"def": "learn; to study; emulate",
+"pyAlt": [
+"xuèxī",
+"xuěxī",
+"xuèxì"
+]
+},
+{
+"id": "L1-129",
+"lv": 1,
+"hz": "学校",
+"py": "xuéxiào",
+"tones": [
+2,
+4
+],
+"def": "school",
+"pyAlt": [
+"xuēxiǎo",
+"xuèxiáo",
+"xuéxiǎo"
+]
+},
+{
+"id": "L1-130",
+"lv": 1,
+"hz": "一",
+"py": "yī",
+"tones": [
+1
+],
+"def": "one; once; a (article)",
+"pyAlt": [
+"yǐ",
+"yí",
+"yì"
+]
+},
+{
+"id": "L1-131",
+"lv": 1,
+"hz": "一点儿",
+"py": "yìdiǎnr",
+"tones": [
+4,
+3,
+5
+],
+"def": "a bit; a few; a little",
+"pyAlt": [
+"yídiànr",
+"yìdiánr",
+"yǐdiǎnr"
+]
+},
+{
+"id": "L1-132",
+"lv": 1,
+"hz": "衣服",
+"py": "yīfu",
+"tones": [
+1,
+5
+],
+"def": "clothes",
+"pyAlt": [
+"yífu",
+"yǐfū",
+"yífū"
+]
+},
+{
+"id": "L1-133",
+"lv": 1,
+"hz": "医生",
+"py": "yīshēng",
+"tones": [
+1,
+1
+],
+"def": "doctor",
+"pyAlt": [
+"yǐshèng",
+"yìshēng",
+"yìshèng"
+]
+},
+{
+"id": "L1-134",
+"lv": 1,
+"hz": "医院",
+"py": "yīyuàn",
+"tones": [
+1,
+4
+],
+"def": "hospital",
+"pyAlt": [
+"yīyuǎn",
+"yíyuán",
+"yíyuǎn"
+]
+},
+{
+"id": "L1-135",
+"lv": 1,
+"hz": "椅子",
+"py": "yǐzi",
+"tones": [
+3,
+5
+],
+"def": "chair",
+"pyAlt": [
+"yízì",
+"yǐzì",
+"yǐzǐ"
+]
+},
+{
+"id": "L1-136",
+"lv": 1,
+"hz": "有",
+"py": "yǒu",
+"tones": [
+3
+],
+"def": "have; there is",
+"pyAlt": [
+"yóu",
+"yòu",
+"yōu"
+]
+},
+{
+"id": "L1-137",
+"lv": 1,
+"hz": "月",
+"py": "yuè",
+"tones": [
+4
+],
+"def": "moon; month (Kangxi radical 74: moon",
+"pyAlt": [
+"yué",
+"yuē",
+"yuě"
+]
+},
+{
+"id": "L1-138",
+"lv": 1,
+"hz": "再见",
+"py": "zàijiàn",
+"tones": [
+4,
+4
+],
+"def": "goodbye; see you later",
+"pyAlt": [
+"zǎijián",
+"záijiǎn",
+"záijiān"
+]
+},
+{
+"id": "L1-139",
+"lv": 1,
+"hz": "在",
+"py": "zài",
+"tones": [
+4
+],
+"def": "at; on; in",
+"pyAlt": [
+"zǎi",
+"zāi",
+"zái"
+]
+},
+{
+"id": "L1-140",
+"lv": 1,
+"hz": "怎么",
+"py": "zěnme",
+"tones": [
+3,
+5
+],
+"def": "how",
+"pyAlt": [
+"zēnmè",
+"zénmē",
+"zēnmé"
+]
+},
+{
+"id": "L1-141",
+"lv": 1,
+"hz": "怎么样",
+"py": "zěnmeyàng",
+"tones": [
+3,
+5,
+4
+],
+"def": "how about; how is/was it",
+"pyAlt": [
+"zénmēyáng",
+"zěnmèyàng",
+"zěnmeyāng"
+]
+},
+{
+"id": "L1-142",
+"lv": 1,
+"hz": "这",
+"py": "zhè",
+"tones": [
+4
+],
+"def": "this; these",
+"pyAlt": [
+"zhē",
+"zhě",
+"zhé"
+]
+},
+{
+"id": "L1-143",
+"lv": 1,
+"hz": "中国",
+"py": "Zhōngguó",
+"tones": [
+1,
+2
+],
+"def": "China",
+"pyAlt": [
+"zhōngguò",
+"zhōngguǒ",
+"zhǒngguó"
+]
+},
+{
+"id": "L1-144",
+"lv": 1,
+"hz": "中午",
+"py": "zhōngwǔ",
+"tones": [
+1,
+3
+],
+"def": "noon; midday",
+"pyAlt": [
+"zhòngwū",
+"zhōngwú",
+"zhóngwú"
+]
+},
+{
+"id": "L1-145",
+"lv": 1,
+"hz": "住",
+"py": "zhù",
+"tones": [
+4
+],
+"def": "to live; reside; to stop",
+"pyAlt": [
+"zhǔ",
+"zhú",
+"zhū"
+]
+},
+{
+"id": "L1-146",
+"lv": 1,
+"hz": "桌子",
+"py": "zhuōzi",
+"tones": [
+1,
+5
+],
+"def": "table; desk",
+"pyAlt": [
+"zhuōzǐ",
+"zhuózì",
+"zhuǒzǐ"
+]
+},
+{
+"id": "L1-147",
+"lv": 1,
+"hz": "字",
+"py": "zì",
+"tones": [
+4
+],
+"def": "word; letter; character",
+"pyAlt": [
+"zī",
+"zǐ",
+"zí"
+]
+},
+{
+"id": "L1-148",
+"lv": 1,
+"hz": "昨天",
+"py": "zuótiān",
+"tones": [
+2,
+1
+],
+"def": "yesterday",
+"pyAlt": [
+"zuótiàn",
+"zuōtiǎn",
+"zuótiǎn"
+]
+},
+{
+"id": "L1-149",
+"lv": 1,
+"hz": "坐",
+"py": "zuò",
+"tones": [
+4
+],
+"def": "sit; take a seat",
+"pyAlt": [
+"zuǒ",
+"zuó",
+"zuō"
+]
+},
+{
+"id": "L1-150",
+"lv": 1,
+"hz": "做",
+"py": "zuò",
+"tones": [
+4
+],
+"def": "do; make; to produce",
+"pyAlt": [
+"zuǒ",
+"zuō",
+"zuó"
+]
+},
+{
+"id": "L2-001",
+"lv": 2,
+"hz": "吧",
+"py": "ba",
+"tones": [
+5
+],
+"def": "particle indicating polite suggestion; onomatopoeia",
+"pyAlt": [
+"bā",
+"bà",
+"bá"
+]
+},
+{
+"id": "L2-002",
+"lv": 2,
+"hz": "白",
+"py": "bái",
+"tones": [
+2
+],
+"def": "white; snowy; pure",
+"pyAlt": [
+"bài",
+"bāi",
+"bǎi"
+]
+},
+{
+"id": "L2-003",
+"lv": 2,
+"hz": "百",
+"py": "bǎi",
+"tones": [
+3
+],
+"def": "hundred",
+"pyAlt": [
+"bái",
+"bāi",
+"bài"
+]
+},
+{
+"id": "L2-004",
+"lv": 2,
+"hz": "帮助",
+"py": "bāngzhù",
+"tones": [
+1,
+4
+],
+"def": "help; assist; aid",
+"pyAlt": [
+"bàngzhù",
+"bángzhǔ",
+"bàngzhū"
+]
+},
+{
+"id": "L2-005",
+"lv": 2,
+"hz": "报纸",
+"py": "bàozhǐ",
+"tones": [
+4,
+3
+],
+"def": "newspaper",
+"pyAlt": [
+"bǎozhī",
+"bāozhí",
+"bāozhǐ"
+]
+},
+{
+"id": "L2-006",
+"lv": 2,
+"hz": "比",
+"py": "bǐ",
+"tones": [
+3
+],
+"def": "compare; (indicates comparison)",
+"pyAlt": [
+"bī",
+"bí",
+"bì"
+]
+},
+{
+"id": "L2-007",
+"lv": 2,
+"hz": "别",
+"py": "bié",
+"tones": [
+2
+],
+"def": "don't do something; don't; depart",
+"pyAlt": [
+"biě",
+"biè",
+"biē"
+]
+},
+{
+"id": "L2-008",
+"lv": 2,
+"hz": "宾馆",
+"py": "bīnguǎn",
+"tones": [
+1,
+3
+],
+"def": "guesthouse; hotel",
+"pyAlt": [
+"bīnguān",
+"bǐnguān",
+"bínguān"
+]
+},
+{
+"id": "L2-009",
+"lv": 2,
+"hz": "长",
+"py": "cháng",
+"tones": [
+2
+],
+"def": "long; length",
+"pyAlt": [
+"chàng",
+"chǎng",
+"chāng"
+]
+},
+{
+"id": "L2-010",
+"lv": 2,
+"hz": "唱歌",
+"py": "chànggē",
+"tones": [
+4,
+1
+],
+"def": "sing (a song)",
+"pyAlt": [
+"chānggè",
+"chànggé",
+"chánggě"
+]
+},
+{
+"id": "L2-011",
+"lv": 2,
+"hz": "出",
+"py": "chū",
+"tones": [
+1
+],
+"def": "go out; occur",
+"pyAlt": [
+"chù",
+"chǔ",
+"chú"
+]
+},
+{
+"id": "L2-012",
+"lv": 2,
+"hz": "穿",
+"py": "chuān",
+"tones": [
+1
+],
+"def": "to wear; put on; penetrate",
+"pyAlt": [
+"chuán",
+"chuàn",
+"chuǎn"
+]
+},
+{
+"id": "L2-013",
+"lv": 2,
+"hz": "次",
+"py": "cì",
+"tones": [
+4
+],
+"def": "(mw for number of times of occurrence); nth; order",
+"pyAlt": [
+"cī",
+"cí",
+"cǐ"
+]
+},
+{
+"id": "L2-014",
+"lv": 2,
+"hz": "从",
+"py": "cóng",
+"tones": [
+2
+],
+"def": "from",
+"pyAlt": [
+"còng",
+"cōng",
+"cǒng"
+]
+},
+{
+"id": "L2-015",
+"lv": 2,
+"hz": "错",
+"py": "cuò",
+"tones": [
+4
+],
+"def": "mistake; error; blunder",
+"pyAlt": [
+"cuó",
+"cuō",
+"cuǒ"
+]
+},
+{
+"id": "L2-016",
+"lv": 2,
+"hz": "打篮球",
+"py": "dǎlánqiú",
+"tones": [
+3,
+2,
+2
+],
+"def": "play basketball",
+"pyAlt": [
+"dálǎnqiū",
+"dàlánqiū",
+"dǎlānqiù"
+]
+},
+{
+"id": "L2-017",
+"lv": 2,
+"hz": "大家",
+"py": "dàjiā",
+"tones": [
+4,
+1
+],
+"def": "everyone",
+"pyAlt": [
+"dájiá",
+"dājiǎ",
+"dájiǎ"
+]
+},
+{
+"id": "L2-018",
+"lv": 2,
+"hz": "到",
+"py": "dào",
+"tones": [
+4
+],
+"def": "arrive (at a place); until (a time)",
+"pyAlt": [
+"dáo",
+"dāo",
+"dǎo"
+]
+},
+{
+"id": "L2-019",
+"lv": 2,
+"hz": "得",
+"py": "de",
+"tones": [
+5
+],
+"def": "(complement particle)",
+"pyAlt": [
+"dè",
+"dē",
+"dě"
+]
+},
+{
+"id": "L2-020",
+"lv": 2,
+"hz": "等",
+"py": "děng",
+"tones": [
+3
+],
+"def": "to wait; rank; equal",
+"pyAlt": [
+"dēng",
+"déng",
+"dèng"
+]
+},
+{
+"id": "L2-021",
+"lv": 2,
+"hz": "弟弟",
+"py": "dìdi",
+"tones": [
+4,
+5
+],
+"def": "younger brother",
+"pyAlt": [
+"dìdí",
+"dīdī",
+"dīdí"
+]
+},
+{
+"id": "L2-022",
+"lv": 2,
+"hz": "第一",
+"py": "dìyī",
+"tones": [
+4,
+1
+],
+"def": "first; number 1",
+"pyAlt": [
+"dìyí",
+"dǐyí",
+"díyì"
+]
+},
+{
+"id": "L2-023",
+"lv": 2,
+"hz": "懂",
+"py": "dǒng",
+"tones": [
+3
+],
+"def": "understand; know",
+"pyAlt": [
+"dōng",
+"dóng",
+"dòng"
+]
+},
+{
+"id": "L2-024",
+"lv": 2,
+"hz": "对",
+"py": "duì",
+"tones": [
+4
+],
+"def": "correct; a pair; to face",
+"pyAlt": [
+"duǐ",
+"duí",
+"duī"
+]
+},
+{
+"id": "L2-025",
+"lv": 2,
+"hz": "房间",
+"py": "fángjiān",
+"tones": [
+2,
+1
+],
+"def": "room",
+"pyAlt": [
+"fàngjiàn",
+"fǎngjián",
+"fàngjiǎn"
+]
+},
+{
+"id": "L2-026",
+"lv": 2,
+"hz": "非常",
+"py": "fēicháng",
+"tones": [
+1,
+2
+],
+"def": "extremely; extraordinary; very",
+"pyAlt": [
+"fèicháng",
+"fēichāng",
+"fèichàng"
+]
+},
+{
+"id": "L2-027",
+"lv": 2,
+"hz": "服务员",
+"py": "fúwùyuán",
+"tones": [
+2,
+4,
+2
+],
+"def": "waiter/waitress; server; attendant",
+"pyAlt": [
+"fǔwūyuàn",
+"fūwūyuān",
+"fúwùyuǎn"
+]
+},
+{
+"id": "L2-028",
+"lv": 2,
+"hz": "高",
+"py": "gāo",
+"tones": [
+1
+],
+"def": "high; tall",
+"pyAlt": [
+"gáo",
+"gào",
+"gǎo"
+]
+},
+{
+"id": "L2-029",
+"lv": 2,
+"hz": "告诉",
+"py": "gàosu",
+"tones": [
+4,
+5
+],
+"def": "to tell; inform",
+"pyAlt": [
+"gáosú",
+"gāosǔ",
+"gǎosu"
+]
+},
+{
+"id": "L2-030",
+"lv": 2,
+"hz": "哥哥",
+"py": "gēge",
+"tones": [
+1,
+5
+],
+"def": "older brother",
+"pyAlt": [
+"gège",
+"gēgé",
+"gégè"
+]
+},
+{
+"id": "L2-031",
+"lv": 2,
+"hz": "给",
+"py": "gěi",
+"tones": [
+3
+],
+"def": "to give; to grant; (passive particle)",
+"pyAlt": [
+"gèi",
+"gēi",
+"géi"
+]
+},
+{
+"id": "L2-032",
+"lv": 2,
+"hz": "公共汽车",
+"py": "gōnggòngqìchē",
+"tones": [
+1,
+4,
+4,
+1
+],
+"def": "(public) bus",
+"pyAlt": [
+"gōnggǒngqìchē",
+"gònggǒngqíchè",
+"gònggóngqìchě"
+]
+},
+{
+"id": "L2-033",
+"lv": 2,
+"hz": "公司",
+"py": "gōngsī",
+"tones": [
+1,
+1
+],
+"def": "company; corporation",
+"pyAlt": [
+"gōngsǐ",
+"gǒngsí",
+"góngsī"
+]
+},
+{
+"id": "L2-034",
+"lv": 2,
+"hz": "贵",
+"py": "guì",
+"tones": [
+4
+],
+"def": "expensive; noble; honorable",
+"pyAlt": [
+"guī",
+"guǐ",
+"guí"
+]
+},
+{
+"id": "L2-035",
+"lv": 2,
+"hz": "过",
+"py": "guò",
+"tones": [
+4
+],
+"def": "to pass; to cross; go over",
+"pyAlt": [
+"guō",
+"guǒ",
+"guó"
+]
+},
+{
+"id": "L2-036",
+"lv": 2,
+"hz": "还",
+"py": "hái",
+"tones": [
+2
+],
+"def": "still; yet; in addition",
+"pyAlt": [
+"hǎi",
+"hāi",
+"hài"
+]
+},
+{
+"id": "L2-037",
+"lv": 2,
+"hz": "孩子",
+"py": "háizi",
+"tones": [
+2,
+5
+],
+"def": "child; children; son or daughter",
+"pyAlt": [
+"háizī",
+"háizǐ",
+"hǎizī"
+]
+},
+{
+"id": "L2-038",
+"lv": 2,
+"hz": "好吃",
+"py": "hǎochī",
+"tones": [
+3,
+1
+],
+"def": "tasty",
+"pyAlt": [
+"hàochí",
+"hāochī",
+"hàochǐ"
+]
+},
+{
+"id": "L2-039",
+"lv": 2,
+"hz": "黑",
+"py": "hēi",
+"tones": [
+1
+],
+"def": "black; dark",
+"pyAlt": [
+"hěi",
+"hèi",
+"héi"
+]
+},
+{
+"id": "L2-040",
+"lv": 2,
+"hz": "红",
+"py": "hóng",
+"tones": [
+2
+],
+"def": "red",
+"pyAlt": [
+"hǒng",
+"hōng",
+"hòng"
+]
+},
+{
+"id": "L2-041",
+"lv": 2,
+"hz": "火车站",
+"py": "huǒchēzhàn",
+"tones": [
+3,
+1,
+4
+],
+"def": "train station",
+"pyAlt": [
+"huǒchēzhán",
+"huòchèzhān",
+"huǒchézhàn"
+]
+},
+{
+"id": "L2-042",
+"lv": 2,
+"hz": "机场",
+"py": "jīchǎng",
+"tones": [
+1,
+3
+],
+"def": "airport; airfield",
+"pyAlt": [
+"jǐcháng",
+"jìcháng",
+"jǐchàng"
+]
+},
+{
+"id": "L2-043",
+"lv": 2,
+"hz": "鸡蛋",
+"py": "jīdàn",
+"tones": [
+1,
+4
+],
+"def": "(chicken) egg",
+"pyAlt": [
+"jīdān",
+"jìdàn",
+"jǐdǎn"
+]
+},
+{
+"id": "L2-044",
+"lv": 2,
+"hz": "件",
+"py": "jiàn",
+"tones": [
+4
+],
+"def": "(mw for things, clothes, and items)",
+"pyAlt": [
+"jiān",
+"jián",
+"jiǎn"
+]
+},
+{
+"id": "L2-045",
+"lv": 2,
+"hz": "教室",
+"py": "jiàoshì",
+"tones": [
+4,
+4
+],
+"def": "classroom",
+"pyAlt": [
+"jiáoshí",
+"jiáoshì",
+"jiáoshī"
+]
+},
+{
+"id": "L2-046",
+"lv": 2,
+"hz": "姐姐",
+"py": "jiějie",
+"tones": [
+3,
+5
+],
+"def": "older sister",
+"pyAlt": [
+"jièjiē",
+"jiējiě",
+"jièjié"
+]
+},
+{
+"id": "L2-047",
+"lv": 2,
+"hz": "介绍",
+"py": "jièshào",
+"tones": [
+4,
+4
+],
+"def": "to introduce; recommend; introduction",
+"pyAlt": [
+"jiěshào",
+"jiēshào",
+"jièsháo"
+]
+},
+{
+"id": "L2-048",
+"lv": 2,
+"hz": "进",
+"py": "jìn",
+"tones": [
+4
+],
+"def": "enter; come in",
+"pyAlt": [
+"jīn",
+"jín",
+"jǐn"
+]
+},
+{
+"id": "L2-049",
+"lv": 2,
+"hz": "近",
+"py": "jìn",
+"tones": [
+4
+],
+"def": "near; close (to)",
+"pyAlt": [
+"jǐn",
+"jīn",
+"jín"
+]
+},
+{
+"id": "L2-050",
+"lv": 2,
+"hz": "就",
+"py": "jiù",
+"tones": [
+4
+],
+"def": "then; at once; just",
+"pyAlt": [
+"jiǔ",
+"jiú",
+"jiū"
+]
+},
+{
+"id": "L2-051",
+"lv": 2,
+"hz": "觉得",
+"py": "juéde",
+"tones": [
+2,
+5
+],
+"def": "feel; think",
+"pyAlt": [
+"juědé",
+"juèdē",
+"juède"
+]
+},
+{
+"id": "L2-052",
+"lv": 2,
+"hz": "咖啡",
+"py": "kāfēi",
+"tones": [
+1,
+1
+],
+"def": "coffee",
+"pyAlt": [
+"kàfēi",
+"kǎfēi",
+"káfèi"
+]
+},
+{
+"id": "L2-053",
+"lv": 2,
+"hz": "开始",
+"py": "kāishǐ",
+"tones": [
+1,
+3
+],
+"def": "begin; to start; beginning",
+"pyAlt": [
+"káishǐ",
+"kǎishī",
+"kàishī"
+]
+},
+{
+"id": "L2-054",
+"lv": 2,
+"hz": "考试",
+"py": "kǎoshì",
+"tones": [
+3,
+4
+],
+"def": "test; exam; to give or take a test",
+"pyAlt": [
+"káoshì",
+"kàoshí",
+"káoshǐ"
+]
+},
+{
+"id": "L2-055",
+"lv": 2,
+"hz": "可能",
+"py": "kěnéng",
+"tones": [
+3,
+2
+],
+"def": "possible; maybe",
+"pyAlt": [
+"kènéng",
+"kéněng",
+"kěnēng"
+]
+},
+{
+"id": "L2-056",
+"lv": 2,
+"hz": "可以",
+"py": "kěyǐ",
+"tones": [
+3,
+3
+],
+"def": "can; may; possible",
+"pyAlt": [
+"kěyì",
+"kěyí",
+"kéyǐ"
+]
+},
+{
+"id": "L2-057",
+"lv": 2,
+"hz": "课",
+"py": "kè",
+"tones": [
+4
+],
+"def": "class; subject; lesson",
+"pyAlt": [
+"kē",
+"kě",
+"ké"
+]
+},
+{
+"id": "L2-058",
+"lv": 2,
+"hz": "快",
+"py": "kuài",
+"tones": [
+4
+],
+"def": "fast; quick; swift",
+"pyAlt": [
+"kuāi",
+"kuǎi",
+"kuái"
+]
+},
+{
+"id": "L2-059",
+"lv": 2,
+"hz": "快乐",
+"py": "kuàilè",
+"tones": [
+4,
+4
+],
+"def": "happy",
+"pyAlt": [
+"kuāilé",
+"kuáilě",
+"kuāilě"
+]
+},
+{
+"id": "L2-060",
+"lv": 2,
+"hz": "累",
+"py": "lèi",
+"tones": [
+4
+],
+"def": "tired",
+"pyAlt": [
+"lēi",
+"lěi",
+"léi"
+]
+},
+{
+"id": "L2-061",
+"lv": 2,
+"hz": "离",
+"py": "lí",
+"tones": [
+2
+],
+"def": "leave; depart; go away",
+"pyAlt": [
+"lī",
+"lì",
+"lǐ"
+]
+},
+{
+"id": "L2-062",
+"lv": 2,
+"hz": "两",
+"py": "liǎng",
+"tones": [
+3
+],
+"def": "two; 2; both",
+"pyAlt": [
+"liáng",
+"liàng",
+"liāng"
+]
+},
+{
+"id": "L2-063",
+"lv": 2,
+"hz": "零",
+"py": "líng",
+"tones": [
+2
+],
+"def": "zero; remnant",
+"pyAlt": [
+"lìng",
+"lǐng",
+"līng"
+]
+},
+{
+"id": "L2-064",
+"lv": 2,
+"hz": "路",
+"py": "lù",
+"tones": [
+4
+],
+"def": "road; path; journey",
+"pyAlt": [
+"lǔ",
+"lú",
+"lū"
+]
+},
+{
+"id": "L2-065",
+"lv": 2,
+"hz": "旅游",
+"py": "lǚyóu",
+"tones": [
+3,
+2
+],
+"def": "trip; journey; tour",
+"pyAlt": [
+"lǖyǒu",
+"lǘyòu",
+"lǜyōu"
+]
+},
+{
+"id": "L2-066",
+"lv": 2,
+"hz": "卖",
+"py": "mài",
+"tones": [
+4
+],
+"def": "to sell",
+"pyAlt": [
+"mái",
+"mǎi",
+"māi"
+]
+},
+{
+"id": "L2-067",
+"lv": 2,
+"hz": "慢",
+"py": "màn",
+"tones": [
+4
+],
+"def": "slow",
+"pyAlt": [
+"mǎn",
+"mán",
+"mān"
+]
+},
+{
+"id": "L2-068",
+"lv": 2,
+"hz": "忙",
+"py": "máng",
+"tones": [
+2
+],
+"def": "busy",
+"pyAlt": [
+"mǎng",
+"màng",
+"māng"
+]
+},
+{
+"id": "L2-069",
+"lv": 2,
+"hz": "每",
+"py": "měi",
+"tones": [
+3
+],
+"def": "each; every",
+"pyAlt": [
+"mēi",
+"mèi",
+"méi"
+]
+},
+{
+"id": "L2-070",
+"lv": 2,
+"hz": "妹妹",
+"py": "mèimei",
+"tones": [
+4,
+5
+],
+"def": "younger sister",
+"pyAlt": [
+"méimēi",
+"měiměi",
+"měiméi"
+]
+},
+{
+"id": "L2-071",
+"lv": 2,
+"hz": "门",
+"py": "mén",
+"tones": [
+2
+],
+"def": "door; opening; gate",
+"pyAlt": [
+"mēn",
+"mèn",
+"měn"
+]
+},
+{
+"id": "L2-072",
+"lv": 2,
+"hz": "面条",
+"py": "miàntiáo",
+"tones": [
+4,
+2
+],
+"def": "noodles",
+"pyAlt": [
+"miǎntiǎo",
+"miántiáo",
+"miǎntiào"
+]
+},
+{
+"id": "L2-073",
+"lv": 2,
+"hz": "男",
+"py": "nán",
+"tones": [
+2
+],
+"def": "male",
+"pyAlt": [
+"nǎn",
+"nàn",
+"nān"
+]
+},
+{
+"id": "L2-074",
+"lv": 2,
+"hz": "您",
+"py": "nín",
+"tones": [
+2
+],
+"def": "you (polite)",
+"pyAlt": [
+"nìn",
+"nīn",
+"nǐn"
+]
+},
+{
+"id": "L2-075",
+"lv": 2,
+"hz": "牛奶",
+"py": "niúnǎi",
+"tones": [
+2,
+3
+],
+"def": "cow's milk",
+"pyAlt": [
+"niùnāi",
+"niùnǎi",
+"niǔnǎi"
+]
+},
+{
+"id": "L2-076",
+"lv": 2,
+"hz": "女",
+"py": "nǚ",
+"tones": [
+3
+],
+"def": "woman; female",
+"pyAlt": [
+"nǜ",
+"nǘ",
+"nǖ"
+]
+},
+{
+"id": "L2-077",
+"lv": 2,
+"hz": "旁边",
+"py": "pángbiān",
+"tones": [
+2,
+1
+],
+"def": "side, beside",
+"pyAlt": [
+"pāngbiàn",
+"pángbiàn",
+"pāngbiān"
+]
+},
+{
+"id": "L2-078",
+"lv": 2,
+"hz": "跑步",
+"py": "pǎobù",
+"tones": [
+3,
+4
+],
+"def": "to run; to jog",
+"pyAlt": [
+"pàobù",
+"pāobú",
+"pàobū"
+]
+},
+{
+"id": "L2-079",
+"lv": 2,
+"hz": "便宜",
+"py": "piányi",
+"tones": [
+2,
+5
+],
+"def": "cheap",
+"pyAlt": [
+"piānyī",
+"piànyī",
+"piányì"
+]
+},
+{
+"id": "L2-080",
+"lv": 2,
+"hz": "票",
+"py": "piào",
+"tones": [
+4
+],
+"def": "ticket; bank note; a vote",
+"pyAlt": [
+"piāo",
+"piáo",
+"piǎo"
+]
+},
+{
+"id": "L2-081",
+"lv": 2,
+"hz": "妻子",
+"py": "qīzi",
+"tones": [
+1,
+5
+],
+"def": "wife",
+"pyAlt": [
+"qīzì",
+"qìzì",
+"qìzǐ"
+]
+},
+{
+"id": "L2-082",
+"lv": 2,
+"hz": "起床",
+"py": "qǐchuáng",
+"tones": [
+3,
+2
+],
+"def": "get out of bed",
+"pyAlt": [
+"qīchuàng",
+"qīchuǎng",
+"qǐchuāng"
+]
+},
+{
+"id": "L2-083",
+"lv": 2,
+"hz": "千",
+"py": "qiān",
+"tones": [
+1
+],
+"def": "one thousand",
+"pyAlt": [
+"qiǎn",
+"qiàn",
+"qián"
+]
+},
+{
+"id": "L2-084",
+"lv": 2,
+"hz": "铅笔",
+"py": "qiānbǐ",
+"tones": [
+1,
+3
+],
+"def": "pencil",
+"pyAlt": [
+"qiǎnbī",
+"qiànbǐ",
+"qiánbí"
+]
+},
+{
+"id": "L2-085",
+"lv": 2,
+"hz": "晴",
+"py": "qíng",
+"tones": [
+2
+],
+"def": "clear; fine (as of weather)",
+"pyAlt": [
+"qìng",
+"qǐng",
+"qīng"
+]
+},
+{
+"id": "L2-086",
+"lv": 2,
+"hz": "去年",
+"py": "qùnián",
+"tones": [
+4,
+2
+],
+"def": "last year",
+"pyAlt": [
+"qūniàn",
+"qǔnián",
+"qúnián"
+]
+},
+{
+"id": "L2-087",
+"lv": 2,
+"hz": "让",
+"py": "ràng",
+"tones": [
+4
+],
+"def": "to let; to make (sb do sth); to ask",
+"pyAlt": [
+"ráng",
+"rāng",
+"rǎng"
+]
+},
+{
+"id": "L2-088",
+"lv": 2,
+"hz": "日",
+"py": "rì",
+"tones": [
+4
+],
+"def": "sun; day; date",
+"pyAlt": [
+"rí",
+"rī",
+"rǐ"
+]
+},
+{
+"id": "L2-089",
+"lv": 2,
+"hz": "上班",
+"py": "shàngbān",
+"tones": [
+4,
+1
+],
+"def": "go to work; be on duty",
+"pyAlt": [
+"shǎngbǎn",
+"shàngbàn",
+"shāngbān"
+]
+},
+{
+"id": "L2-090",
+"lv": 2,
+"hz": "身体",
+"py": "shēntǐ",
+"tones": [
+1,
+3
+],
+"def": "health; (human) body",
+"pyAlt": [
+"shéntǐ",
+"shéntì",
+"shèntí"
+]
+},
+{
+"id": "L2-091",
+"lv": 2,
+"hz": "生病",
+"py": "shēngbìng",
+"tones": [
+1,
+4
+],
+"def": "get sick; fall ill",
+"pyAlt": [
+"shēngbīng",
+"shēngbǐng",
+"shěngbǐng"
+]
+},
+{
+"id": "L2-092",
+"lv": 2,
+"hz": "生日",
+"py": "shēngrì",
+"tones": [
+1,
+4
+],
+"def": "birthday",
+"pyAlt": [
+"shéngrí",
+"shéngrì",
+"shéngrī"
+]
+},
+{
+"id": "L2-093",
+"lv": 2,
+"hz": "时间",
+"py": "shíjiān",
+"tones": [
+2,
+1
+],
+"def": "time; period",
+"pyAlt": [
+"shǐjiǎn",
+"shǐjiàn",
+"shījiān"
+]
+},
+{
+"id": "L2-094",
+"lv": 2,
+"hz": "事情",
+"py": "shìqing",
+"tones": [
+4,
+5
+],
+"def": "matter; affair; thing",
+"pyAlt": [
+"shìqíng",
+"shíqíng",
+"shíqing"
+]
+},
+{
+"id": "L2-095",
+"lv": 2,
+"hz": "手表",
+"py": "shǒubiǎo",
+"tones": [
+3,
+3
+],
+"def": "wristwatch",
+"pyAlt": [
+"shōubiào",
+"shǒubiáo",
+"shōubiǎo"
+]
+},
+{
+"id": "L2-096",
+"lv": 2,
+"hz": "手机",
+"py": "shǒujī",
+"tones": [
+3,
+1
+],
+"def": "mobile (cell) phone",
+"pyAlt": [
+"shòujī",
+"shǒují",
+"shōujǐ"
+]
+},
+{
+"id": "L2-097",
+"lv": 2,
+"hz": "说话",
+"py": "shuōhuà",
+"tones": [
+1,
+4
+],
+"def": "to talk; speak",
+"pyAlt": [
+"shuǒhuā",
+"shuōhuǎ",
+"shuòhuǎ"
+]
+},
+{
+"id": "L2-098",
+"lv": 2,
+"hz": "送",
+"py": "sòng",
+"tones": [
+4
+],
+"def": "deliver; to carry; to give",
+"pyAlt": [
+"sǒng",
+"sóng",
+"sōng"
+]
+},
+{
+"id": "L2-099",
+"lv": 2,
+"hz": "虽然",
+"py": "suīrán",
+"tones": [
+1,
+2
+],
+"def": "although; even though",
+"pyAlt": [
+"suīrǎn",
+"suírǎn",
+"suìràn"
+]
+},
+{
+"id": "L2-100",
+"lv": 2,
+"hz": "但是",
+"py": "dànshì",
+"tones": [
+4,
+4
+],
+"def": "but; however",
+"pyAlt": [
+"dànshí",
+"dánshǐ",
+"dànshī"
+]
+},
+{
+"id": "L2-101",
+"lv": 2,
+"hz": "它",
+"py": "tā",
+"tones": [
+1
+],
+"def": "it",
+"pyAlt": [
+"tá",
+"tà",
+"tǎ"
+]
+},
+{
+"id": "L2-102",
+"lv": 2,
+"hz": "踢足球",
+"py": "tīzúqiú",
+"tones": [
+1,
+2,
+2
+],
+"def": "to play football/soccer",
+"pyAlt": [
+"tǐzúqiǔ",
+"tǐzǔqiǔ",
+"tīzūqiū"
+]
+},
+{
+"id": "L2-103",
+"lv": 2,
+"hz": "题",
+"py": "tí",
+"tones": [
+2
+],
+"def": "topic; subject; question on a test or assignment",
+"pyAlt": [
+"tì",
+"tǐ",
+"tī"
+]
+},
+{
+"id": "L2-104",
+"lv": 2,
+"hz": "跳舞",
+"py": "tiàowǔ",
+"tones": [
+4,
+3
+],
+"def": "to dance",
+"pyAlt": [
+"tiáowú",
+"tiàowū",
+"tiǎowú"
+]
+},
+{
+"id": "L2-105",
+"lv": 2,
+"hz": "外",
+"py": "wài",
+"tones": [
+4
+],
+"def": "outer; outside; in addition",
+"pyAlt": [
+"wāi",
+"wái",
+"wǎi"
+]
+},
+{
+"id": "L2-106",
+"lv": 2,
+"hz": "完",
+"py": "wán",
+"tones": [
+2
+],
+"def": "to finish; be over; complete",
+"pyAlt": [
+"wān",
+"wàn",
+"wǎn"
+]
+},
+{
+"id": "L2-107",
+"lv": 2,
+"hz": "玩",
+"py": "wán",
+"tones": [
+2
+],
+"def": "to play; have a good time; visit",
+"pyAlt": [
+"wān",
+"wàn",
+"wǎn"
+]
+},
+{
+"id": "L2-108",
+"lv": 2,
+"hz": "晚上",
+"py": "wǎnshang",
+"tones": [
+3,
+5
+],
+"def": "evening; night",
+"pyAlt": [
+"wánshǎng",
+"wǎnshàng",
+"wǎnshāng"
+]
+},
+{
+"id": "L2-109",
+"lv": 2,
+"hz": "往",
+"py": "wǎng",
+"tones": [
+3
+],
+"def": "to go (in a direction); towards; in the past",
+"pyAlt": [
+"wáng",
+"wàng",
+"wāng"
+]
+},
+{
+"id": "L2-110",
+"lv": 2,
+"hz": "为什么",
+"py": "wèishénme",
+"tones": [
+4,
+2,
+5
+],
+"def": "why?; for what reason?",
+"pyAlt": [
+"wèishēnmé",
+"wěishènmè",
+"wèishēnmě"
+]
+},
+{
+"id": "L2-111",
+"lv": 2,
+"hz": "问",
+"py": "wèn",
+"tones": [
+4
+],
+"def": "ask; inquire",
+"pyAlt": [
+"wěn",
+"wén",
+"wēn"
+]
+},
+{
+"id": "L2-112",
+"lv": 2,
+"hz": "问题",
+"py": "wèntí",
+"tones": [
+4,
+2
+],
+"def": "question; problem",
+"pyAlt": [
+"wěntì",
+"wéntì",
+"wěntǐ"
+]
+},
+{
+"id": "L2-113",
+"lv": 2,
+"hz": "西瓜",
+"py": "xīguā",
+"tones": [
+1,
+1
+],
+"def": "watermelon",
+"pyAlt": [
+"xìguā",
+"xìguǎ",
+"xíguà"
+]
+},
+{
+"id": "L2-114",
+"lv": 2,
+"hz": "希望",
+"py": "xīwàng",
+"tones": [
+1,
+4
+],
+"def": "to hope; wish for; to desire",
+"pyAlt": [
+"xǐwáng",
+"xīwáng",
+"xíwàng"
+]
+},
+{
+"id": "L2-115",
+"lv": 2,
+"hz": "洗",
+"py": "xǐ",
+"tones": [
+3
+],
+"def": "to wash; bathe",
+"pyAlt": [
+"xì",
+"xī",
+"xí"
+]
+},
+{
+"id": "L2-116",
+"lv": 2,
+"hz": "小时",
+"py": "xiǎoshí",
+"tones": [
+3,
+2
+],
+"def": "hour",
+"pyAlt": [
+"xiàoshī",
+"xiáoshì",
+"xiāoshí"
+]
+},
+{
+"id": "L2-117",
+"lv": 2,
+"hz": "笑",
+"py": "xiào",
+"tones": [
+4
+],
+"def": "to laugh; to smile",
+"pyAlt": [
+"xiáo",
+"xiǎo",
+"xiāo"
+]
+},
+{
+"id": "L2-118",
+"lv": 2,
+"hz": "新",
+"py": "xīn",
+"tones": [
+1
+],
+"def": "new",
+"pyAlt": [
+"xìn",
+"xín",
+"xǐn"
+]
+},
+{
+"id": "L2-119",
+"lv": 2,
+"hz": "姓",
+"py": "xìng",
+"tones": [
+4
+],
+"def": "surname; family name",
+"pyAlt": [
+"xǐng",
+"xīng",
+"xíng"
+]
+},
+{
+"id": "L2-120",
+"lv": 2,
+"hz": "休息",
+"py": "xiūxi",
+"tones": [
+1,
+5
+],
+"def": "to rest; take a break",
+"pyAlt": [
+"xiùxì",
+"xiūxī",
+"xiǔxī"
+]
+},
+{
+"id": "L2-121",
+"lv": 2,
+"hz": "雪",
+"py": "xuě",
+"tones": [
+3
+],
+"def": "snow",
+"pyAlt": [
+"xué",
+"xuè",
+"xuē"
+]
+},
+{
+"id": "L2-122",
+"lv": 2,
+"hz": "颜色",
+"py": "yánsè",
+"tones": [
+2,
+4
+],
+"def": "color",
+"pyAlt": [
+"yànsè",
+"yānsě",
+"yànsē"
+]
+},
+{
+"id": "L2-123",
+"lv": 2,
+"hz": "眼睛",
+"py": "yǎnjing",
+"tones": [
+3,
+5
+],
+"def": "eye",
+"pyAlt": [
+"yànjìng",
+"yánjǐng",
+"yānjìng"
+]
+},
+{
+"id": "L2-124",
+"lv": 2,
+"hz": "羊肉",
+"py": "yángròu",
+"tones": [
+2,
+4
+],
+"def": "mutton; lamb",
+"pyAlt": [
+"yàngrōu",
+"yāngrǒu",
+"yāngrōu"
+]
+},
+{
+"id": "L2-125",
+"lv": 2,
+"hz": "药",
+"py": "yào",
+"tones": [
+4
+],
+"def": "medicine; drug; cure",
+"pyAlt": [
+"yáo",
+"yǎo",
+"yāo"
+]
+},
+{
+"id": "L2-126",
+"lv": 2,
+"hz": "要",
+"py": "yào",
+"tones": [
+4
+],
+"def": "to want; to need; will/shall",
+"pyAlt": [
+"yáo",
+"yǎo",
+"yāo"
+]
+},
+{
+"id": "L2-127",
+"lv": 2,
+"hz": "也",
+"py": "yě",
+"tones": [
+3
+],
+"def": "also; too",
+"pyAlt": [
+"yē",
+"yè",
+"yé"
+]
+},
+{
+"id": "L2-128",
+"lv": 2,
+"hz": "一起",
+"py": "yìqǐ",
+"tones": [
+4,
+3
+],
+"def": "together; in the same place",
+"pyAlt": [
+"yíqì",
+"yǐqǐ",
+"yíqí"
+]
+},
+{
+"id": "L2-129",
+"lv": 2,
+"hz": "一下",
+"py": "yíxià",
+"tones": [
+2,
+4
+],
+"def": "a little bit/while; one time; once",
+"pyAlt": [
+"yíxiā",
+"yíxiǎ",
+"yīxiǎ"
+]
+},
+{
+"id": "L2-130",
+"lv": 2,
+"hz": "已经",
+"py": "yǐjing",
+"tones": [
+3,
+5
+],
+"def": "already",
+"pyAlt": [
+"yìjǐng",
+"yǐjíng",
+"yǐjīng"
+]
+},
+{
+"id": "L2-131",
+"lv": 2,
+"hz": "意思",
+"py": "yìsi",
+"tones": [
+4,
+5
+],
+"def": "meaning; idea; opinion",
+"pyAlt": [
+"yǐsī",
+"yīsí",
+"yìsì"
+]
+},
+{
+"id": "L2-132",
+"lv": 2,
+"hz": "因为",
+"py": "yīnwèi",
+"tones": [
+1,
+4
+],
+"def": "because",
+"pyAlt": [
+"yǐnwèi",
+"yīnwēi",
+"yǐnwēi"
+]
+},
+{
+"id": "L2-133",
+"lv": 2,
+"hz": "所以",
+"py": "suǒyǐ",
+"tones": [
+3,
+3
+],
+"def": "so; therefore; as a result",
+"pyAlt": [
+"suǒyì",
+"suōyī",
+"suōyǐ"
+]
+},
+{
+"id": "L2-134",
+"lv": 2,
+"hz": "阴",
+"py": "yīn",
+"tones": [
+1
+],
+"def": "cloudy (weather)",
+"pyAlt": [
+"yín",
+"yǐn",
+"yìn"
+]
+},
+{
+"id": "L2-135",
+"lv": 2,
+"hz": "游泳",
+"py": "yóuyǒng",
+"tones": [
+2,
+3
+],
+"def": "to swim",
+"pyAlt": [
+"yòuyōng",
+"yǒuyòng",
+"yòuyóng"
+]
+},
+{
+"id": "L2-136",
+"lv": 2,
+"hz": "右边",
+"py": "yòubian",
+"tones": [
+4,
+5
+],
+"def": "the right (as opposed to left) side",
+"pyAlt": [
+"yóubian",
+"yōubiǎn",
+"yòubiān"
+]
+},
+{
+"id": "L2-137",
+"lv": 2,
+"hz": "鱼",
+"py": "yú",
+"tones": [
+2
+],
+"def": "fish",
+"pyAlt": [
+"yù",
+"yū",
+"yǔ"
+]
+},
+{
+"id": "L2-138",
+"lv": 2,
+"hz": "远",
+"py": "yuǎn",
+"tones": [
+3
+],
+"def": "far; distant; remote",
+"pyAlt": [
+"yuān",
+"yuán",
+"yuàn"
+]
+},
+{
+"id": "L2-139",
+"lv": 2,
+"hz": "运动",
+"py": "yùndòng",
+"tones": [
+4,
+4
+],
+"def": "(physical) exercise; movement; sports",
+"pyAlt": [
+"yǔndóng",
+"yùndǒng",
+"yùndōng"
+]
+},
+{
+"id": "L2-140",
+"lv": 2,
+"hz": "再",
+"py": "zài",
+"tones": [
+4
+],
+"def": "again; once more",
+"pyAlt": [
+"zái",
+"zǎi",
+"zāi"
+]
+},
+{
+"id": "L2-141",
+"lv": 2,
+"hz": "早上",
+"py": "zǎoshang",
+"tones": [
+3,
+5
+],
+"def": "(early) morning",
+"pyAlt": [
+"zǎoshāng",
+"záoshang",
+"záoshāng"
+]
+},
+{
+"id": "L2-142",
+"lv": 2,
+"hz": "丈夫",
+"py": "zhàngfu",
+"tones": [
+4,
+5
+],
+"def": "husband; man",
+"pyAlt": [
+"zhǎngfú",
+"zhǎngfu",
+"zhǎngfǔ"
+]
+},
+{
+"id": "L2-143",
+"lv": 2,
+"hz": "找",
+"py": "zhǎo",
+"tones": [
+3
+],
+"def": "try to find; look for; seek",
+"pyAlt": [
+"zhāo",
+"zháo",
+"zhào"
+]
+},
+{
+"id": "L2-144",
+"lv": 2,
+"hz": "着",
+"py": "zhe",
+"tones": [
+5
+],
+"def": "-ing (indicating action in progress)",
+"pyAlt": [
+"zhē",
+"zhě",
+"zhè"
+]
+},
+{
+"id": "L2-145",
+"lv": 2,
+"hz": "真",
+"py": "zhēn",
+"tones": [
+1
+],
+"def": "real; true; genuine",
+"pyAlt": [
+"zhén",
+"zhěn",
+"zhèn"
+]
+},
+{
+"id": "L2-146",
+"lv": 2,
+"hz": "正在",
+"py": "zhèngzài",
+"tones": [
+4,
+4
+],
+"def": "in the process of (doing something); currently",
+"pyAlt": [
+"zhéngzāi",
+"zhēngzāi",
+"zhēngzái"
+]
+},
+{
+"id": "L2-147",
+"lv": 2,
+"hz": "知道",
+"py": "zhīdao",
+"tones": [
+1,
+5
+],
+"def": "know; be aware of",
+"pyAlt": [
+"zhìdǎo",
+"zhídao",
+"zhìdāo"
+]
+},
+{
+"id": "L2-148",
+"lv": 2,
+"hz": "准备",
+"py": "zhǔnbèi",
+"tones": [
+3,
+4
+],
+"def": "prepare; get ready",
+"pyAlt": [
+"zhúnbéi",
+"zhǔnbēi",
+"zhúnbēi"
+]
+},
+{
+"id": "L2-149",
+"lv": 2,
+"hz": "走",
+"py": "zǒu",
+"tones": [
+3
+],
+"def": "to walk; to go; to move",
+"pyAlt": [
+"zōu",
+"zòu",
+"zóu"
+]
+},
+{
+"id": "L2-150",
+"lv": 2,
+"hz": "最",
+"py": "zuì",
+"tones": [
+4
+],
+"def": "the most; -est; (indicator for superlative)",
+"pyAlt": [
+"zuǐ",
+"zuí",
+"zuī"
+]
+},
+{
+"id": "L2-151",
+"lv": 2,
+"hz": "左边",
+"py": "zuǒbian",
+"tones": [
+3,
+5
+],
+"def": "the left side; the left",
+"pyAlt": [
+"zuóbiān",
+"zuóbián",
+"zuōbián"
+]
+},
+{
+"id": "L3-001",
+"lv": 3,
+"hz": "阿姨",
+"py": "āyí",
+"tones": [
+1,
+2
+],
+"def": "auntie; step-mother; mother's younger sister",
+"pyAlt": [
+"áyǐ",
+"ǎyì",
+"āyī"
+]
+},
+{
+"id": "L3-002",
+"lv": 3,
+"hz": "啊",
+"py": "a",
+"tones": [
+5
+],
+"def": "ah",
+"pyAlt": [
+"à",
+"ǎ",
+"ā"
+]
+},
+{
+"id": "L3-003",
+"lv": 3,
+"hz": "矮",
+"py": "ǎi",
+"tones": [
+3
+],
+"def": "short; low",
+"pyAlt": [
+"ái",
+"āi",
+"ài"
+]
+},
+{
+"id": "L3-004",
+"lv": 3,
+"hz": "爱好",
+"py": "àihào",
+"tones": [
+4,
+4
+],
+"def": "hobby; fond of; to like",
+"pyAlt": [
+"àiháo",
+"áihào",
+"áihāo"
+]
+},
+{
+"id": "L3-005",
+"lv": 3,
+"hz": "安静",
+"py": "ānjìng",
+"tones": [
+1,
+4
+],
+"def": "quiet; peaceful; calm",
+"pyAlt": [
+"ànjǐng",
+"ǎnjǐng",
+"ǎnjìng"
+]
+},
+{
+"id": "L3-006",
+"lv": 3,
+"hz": "把",
+"py": "bǎ",
+"tones": [
+3
+],
+"def": "(mw for things with handles); (pretransitive particle)",
+"pyAlt": [
+"bà",
+"bā",
+"bá"
+]
+},
+{
+"id": "L3-007",
+"lv": 3,
+"hz": "班",
+"py": "bān",
+"tones": [
+1
+],
+"def": "team; class; squad",
+"pyAlt": [
+"bàn",
+"bǎn",
+"bán"
+]
+},
+{
+"id": "L3-008",
+"lv": 3,
+"hz": "搬",
+"py": "bān",
+"tones": [
+1
+],
+"def": "to move; to transport",
+"pyAlt": [
+"bán",
+"bàn",
+"bǎn"
+]
+},
+{
+"id": "L3-009",
+"lv": 3,
+"hz": "办法",
+"py": "bànfǎ",
+"tones": [
+4,
+3
+],
+"def": "method; way (of doing something)",
+"pyAlt": [
+"bánfǎ",
+"bǎnfā",
+"bànfā"
+]
+},
+{
+"id": "L3-010",
+"lv": 3,
+"hz": "办公室",
+"py": "bàngōngshì",
+"tones": [
+4,
+1,
+4
+],
+"def": "office",
+"pyAlt": [
+"bǎngòngshì",
+"bǎngōngshì",
+"bàngǒngshì"
+]
+},
+{
+"id": "L3-011",
+"lv": 3,
+"hz": "半",
+"py": "bàn",
+"tones": [
+4
+],
+"def": "half; semi-; incomplete",
+"pyAlt": [
+"bǎn",
+"bán",
+"bān"
+]
+},
+{
+"id": "L3-012",
+"lv": 3,
+"hz": "帮忙",
+"py": "bāngmáng",
+"tones": [
+1,
+2
+],
+"def": "to help",
+"pyAlt": [
+"bǎngmǎng",
+"bángmàng",
+"bǎngmàng"
+]
+},
+{
+"id": "L3-013",
+"lv": 3,
+"hz": "包",
+"py": "bāo",
+"tones": [
+1
+],
+"def": "bag; package; to wrap",
+"pyAlt": [
+"bào",
+"bǎo",
+"báo"
+]
+},
+{
+"id": "L3-014",
+"lv": 3,
+"hz": "饱",
+"py": "bǎo",
+"tones": [
+3
+],
+"def": "eat until full; satisfied",
+"pyAlt": [
+"báo",
+"bào",
+"bāo"
+]
+},
+{
+"id": "L3-015",
+"lv": 3,
+"hz": "北方",
+"py": "běifāng",
+"tones": [
+3,
+1
+],
+"def": "north; the northern part of the country",
+"pyAlt": [
+"běifǎng",
+"bēifáng",
+"běifàng"
+]
+},
+{
+"id": "L3-016",
+"lv": 3,
+"hz": "被",
+"py": "bèi",
+"tones": [
+4
+],
+"def": "by (indicates passive voice sentences); a quilt/blanket",
+"pyAlt": [
+"béi",
+"běi",
+"bēi"
+]
+},
+{
+"id": "L3-017",
+"lv": 3,
+"hz": "鼻子",
+"py": "bízi",
+"tones": [
+2,
+5
+],
+"def": "nose",
+"pyAlt": [
+"bízí",
+"bǐzi",
+"bīzī"
+]
+},
+{
+"id": "L3-018",
+"lv": 3,
+"hz": "比较",
+"py": "bǐjiào",
+"tones": [
+3,
+4
+],
+"def": "compare; contrast; relatively",
+"pyAlt": [
+"bíjiào",
+"bíjiǎo",
+"bījiáo"
+]
+},
+{
+"id": "L3-019",
+"lv": 3,
+"hz": "比赛",
+"py": "bǐsài",
+"tones": [
+3,
+4
+],
+"def": "(sports) match; competition",
+"pyAlt": [
+"bīsāi",
+"bísāi",
+"bìsāi"
+]
+},
+{
+"id": "L3-020",
+"lv": 3,
+"hz": "笔记本",
+"py": "bǐjìběn",
+"tones": [
+3,
+4,
+3
+],
+"def": "notebook",
+"pyAlt": [
+"bǐjìbén",
+"bìjíbén",
+"bījībén"
+]
+},
+{
+"id": "L3-021",
+"lv": 3,
+"hz": "必须",
+"py": "bìxū",
+"tones": [
+4,
+1
+],
+"def": "must; have to",
+"pyAlt": [
+"bíxù",
+"bǐxù",
+"bǐxǔ"
+]
+},
+{
+"id": "L3-022",
+"lv": 3,
+"hz": "变化",
+"py": "biànhuà",
+"tones": [
+4,
+4
+],
+"def": "change",
+"pyAlt": [
+"biánhuā",
+"biānhuā",
+"biánhuà"
+]
+},
+{
+"id": "L3-023",
+"lv": 3,
+"hz": "别人",
+"py": "biéren",
+"tones": [
+2,
+5
+],
+"def": "other people; others",
+"pyAlt": [
+"biērěn",
+"biěrén",
+"biērén"
+]
+},
+{
+"id": "L3-024",
+"lv": 3,
+"hz": "冰箱",
+"py": "bīngxiāng",
+"tones": [
+1,
+1
+],
+"def": "refrigerator",
+"pyAlt": [
+"bìngxiāng",
+"bīngxiàng",
+"bíngxiàng"
+]
+},
+{
+"id": "L3-025",
+"lv": 3,
+"hz": "不但",
+"py": "búdàn",
+"tones": [
+2,
+4
+],
+"def": "not only",
+"pyAlt": [
+"bǔdàn",
+"būdān",
+"bǔdǎn"
+]
+},
+{
+"id": "L3-026",
+"lv": 3,
+"hz": "而且",
+"py": "érqiě",
+"tones": [
+2,
+3
+],
+"def": "moreover; in addition; as well as",
+"pyAlt": [
+"ērqié",
+"èrqiē",
+"ěrqié"
+]
+},
+{
+"id": "L3-027",
+"lv": 3,
+"hz": "菜单",
+"py": "càidān",
+"tones": [
+4,
+1
+],
+"def": "menu",
+"pyAlt": [
+"càidán",
+"cǎidàn",
+"cāidàn"
+]
+},
+{
+"id": "L3-028",
+"lv": 3,
+"hz": "参加",
+"py": "cānjiā",
+"tones": [
+1,
+1
+],
+"def": "participate; join; take part in",
+"pyAlt": [
+"cǎnjiǎ",
+"cànjiā",
+"cànjiǎ"
+]
+},
+{
+"id": "L3-029",
+"lv": 3,
+"hz": "草",
+"py": "cǎo",
+"tones": [
+3
+],
+"def": "grass; straw; draft (of a document)",
+"pyAlt": [
+"cáo",
+"cào",
+"cāo"
+]
+},
+{
+"id": "L3-030",
+"lv": 3,
+"hz": "层",
+"py": "céng",
+"tones": [
+2
+],
+"def": "(mw for layers, floors of buildings)",
+"pyAlt": [
+"cěng",
+"cèng",
+"cēng"
+]
+},
+{
+"id": "L3-031",
+"lv": 3,
+"hz": "差",
+"py": "chà",
+"tones": [
+4
+],
+"def": "poor; bad; to lack",
+"pyAlt": [
+"chǎ",
+"chá",
+"chā"
+]
+},
+{
+"id": "L3-032",
+"lv": 3,
+"hz": "超市",
+"py": "chāoshì",
+"tones": [
+1,
+4
+],
+"def": "supermarket",
+"pyAlt": [
+"chàoshǐ",
+"chàoshī",
+"chāoshǐ"
+]
+},
+{
+"id": "L3-033",
+"lv": 3,
+"hz": "衬衫",
+"py": "chènshān",
+"tones": [
+4,
+1
+],
+"def": "shirt; blouse",
+"pyAlt": [
+"chènshán",
+"chēnshǎn",
+"chénshān"
+]
+},
+{
+"id": "L3-034",
+"lv": 3,
+"hz": "成绩",
+"py": "chéngjì",
+"tones": [
+2,
+4
+],
+"def": "achievement; success; results (of work or study)",
+"pyAlt": [
+"chēngjī",
+"chéngjǐ",
+"chěngjí"
+]
+},
+{
+"id": "L3-035",
+"lv": 3,
+"hz": "城市",
+"py": "chéngshì",
+"tones": [
+2,
+4
+],
+"def": "city or town",
+"pyAlt": [
+"chéngshí",
+"chéngshǐ",
+"chēngshì"
+]
+},
+{
+"id": "L3-036",
+"lv": 3,
+"hz": "迟到",
+"py": "chídào",
+"tones": [
+2,
+4
+],
+"def": "arrive late",
+"pyAlt": [
+"chǐdáo",
+"chídāo",
+"chìdào"
+]
+},
+{
+"id": "L3-037",
+"lv": 3,
+"hz": "除了",
+"py": "chúle",
+"tones": [
+2,
+5
+],
+"def": "besides; except for; aside from",
+"pyAlt": [
+"chūle",
+"chùlē",
+"chūlē"
+]
+},
+{
+"id": "L3-038",
+"lv": 3,
+"hz": "船",
+"py": "chuán",
+"tones": [
+2
+],
+"def": "a boat; vessel; ship",
+"pyAlt": [
+"chuǎn",
+"chuān",
+"chuàn"
+]
+},
+{
+"id": "L3-039",
+"lv": 3,
+"hz": "春",
+"py": "chūn",
+"tones": [
+1
+],
+"def": "spring (season); joyful",
+"pyAlt": [
+"chǔn",
+"chùn",
+"chún"
+]
+},
+{
+"id": "L3-040",
+"lv": 3,
+"hz": "词典",
+"py": "cídiǎn",
+"tones": [
+2,
+3
+],
+"def": "dictionary",
+"pyAlt": [
+"cídiān",
+"cìdiān",
+"cǐdiǎn"
+]
+},
+{
+"id": "L3-041",
+"lv": 3,
+"hz": "聪明",
+"py": "cōngming",
+"tones": [
+1,
+5
+],
+"def": "intelligent; clever; bright",
+"pyAlt": [
+"cóngmìng",
+"còngmīng",
+"cóngmǐng"
+]
+},
+{
+"id": "L3-042",
+"lv": 3,
+"hz": "打扫",
+"py": "dǎsǎo",
+"tones": [
+3,
+3
+],
+"def": "to clean; to sweep",
+"pyAlt": [
+"dāsāo",
+"dásǎo",
+"dàsāo"
+]
+},
+{
+"id": "L3-043",
+"lv": 3,
+"hz": "打算",
+"py": "dǎsuàn",
+"tones": [
+3,
+4
+],
+"def": "to plan; intend",
+"pyAlt": [
+"dásuán",
+"dāsuàn",
+"dǎsuǎn"
+]
+},
+{
+"id": "L3-044",
+"lv": 3,
+"hz": "带",
+"py": "dài",
+"tones": [
+4
+],
+"def": "to take along; to bring; belt",
+"pyAlt": [
+"dái",
+"dǎi",
+"dāi"
+]
+},
+{
+"id": "L3-045",
+"lv": 3,
+"hz": "担心",
+"py": "dānxīn",
+"tones": [
+1,
+1
+],
+"def": "to worry; feel anxious",
+"pyAlt": [
+"dànxǐn",
+"dànxīn",
+"dánxīn"
+]
+},
+{
+"id": "L3-046",
+"lv": 3,
+"hz": "蛋糕",
+"py": "dàngāo",
+"tones": [
+4,
+1
+],
+"def": "cake",
+"pyAlt": [
+"dǎngǎo",
+"dǎngào",
+"dāngào"
+]
+},
+{
+"id": "L3-047",
+"lv": 3,
+"hz": "当然",
+"py": "dāngrán",
+"tones": [
+1,
+2
+],
+"def": "of course; naturally",
+"pyAlt": [
+"dàngràn",
+"dǎngràn",
+"dàngrǎn"
+]
+},
+{
+"id": "L3-048",
+"lv": 3,
+"hz": "地",
+"py": "de",
+"tones": [
+5
+],
+"def": "-ly (particle linking adverb and verb)",
+"pyAlt": [
+"dé",
+"dě",
+"dè"
+]
+},
+{
+"id": "L3-049",
+"lv": 3,
+"hz": "灯",
+"py": "dēng",
+"tones": [
+1
+],
+"def": "lamp; light",
+"pyAlt": [
+"déng",
+"děng",
+"dèng"
+]
+},
+{
+"id": "L3-050",
+"lv": 3,
+"hz": "地方",
+"py": "dìfang",
+"tones": [
+4,
+5
+],
+"def": "place; space; room",
+"pyAlt": [
+"dìfāng",
+"dīfǎng",
+"dífàng"
+]
+},
+{
+"id": "L3-051",
+"lv": 3,
+"hz": "地铁",
+"py": "dìtiě",
+"tones": [
+4,
+3
+],
+"def": "subway",
+"pyAlt": [
+"dìtié",
+"dítiě",
+"dǐtiè"
+]
+},
+{
+"id": "L3-052",
+"lv": 3,
+"hz": "地图",
+"py": "dìtú",
+"tones": [
+4,
+2
+],
+"def": "map",
+"pyAlt": [
+"dǐtù",
+"dītú",
+"dìtǔ"
+]
+},
+{
+"id": "L3-053",
+"lv": 3,
+"hz": "电梯",
+"py": "diàntī",
+"tones": [
+4,
+1
+],
+"def": "elevator",
+"pyAlt": [
+"diàntí",
+"diāntí",
+"diāntī"
+]
+},
+{
+"id": "L3-054",
+"lv": 3,
+"hz": "电子邮件",
+"py": "diànzǐyóujiàn",
+"tones": [
+4,
+3,
+2,
+4
+],
+"def": "email",
+"pyAlt": [
+"diànzǐyōujiàn",
+"diànzǐyōujián",
+"diánzíyǒujiàn"
+]
+},
+{
+"id": "L3-055",
+"lv": 3,
+"hz": "东",
+"py": "dōng",
+"tones": [
+1
+],
+"def": "East",
+"pyAlt": [
+"dòng",
+"dǒng",
+"dóng"
+]
+},
+{
+"id": "L3-056",
+"lv": 3,
+"hz": "冬",
+"py": "dōng",
+"tones": [
+1
+],
+"def": "winter",
+"pyAlt": [
+"dǒng",
+"dóng",
+"dòng"
+]
+},
+{
+"id": "L3-057",
+"lv": 3,
+"hz": "动物",
+"py": "dòngwù",
+"tones": [
+4,
+4
+],
+"def": "animal",
+"pyAlt": [
+"dǒngwú",
+"dǒngwù",
+"dóngwù"
+]
+},
+{
+"id": "L3-058",
+"lv": 3,
+"hz": "短",
+"py": "duǎn",
+"tones": [
+3
+],
+"def": "short (in length, duration, or height); lack",
+"pyAlt": [
+"duàn",
+"duán",
+"duān"
+]
+},
+{
+"id": "L3-059",
+"lv": 3,
+"hz": "段",
+"py": "duàn",
+"tones": [
+4
+],
+"def": "paragraph; segment; section",
+"pyAlt": [
+"duǎn",
+"duān",
+"duán"
+]
+},
+{
+"id": "L3-060",
+"lv": 3,
+"hz": "锻炼",
+"py": "duànliàn",
+"tones": [
+4,
+4
+],
+"def": "to exercise; work out; toughen",
+"pyAlt": [
+"duǎnliǎn",
+"duánliǎn",
+"duánliàn"
+]
+},
+{
+"id": "L3-061",
+"lv": 3,
+"hz": "多么",
+"py": "duōme",
+"tones": [
+1,
+5
+],
+"def": "how (wonderful, etc.); what (a great idea)",
+"pyAlt": [
+"duǒmě",
+"duóme",
+"duòmě"
+]
+},
+{
+"id": "L3-062",
+"lv": 3,
+"hz": "饿",
+"py": "è",
+"tones": [
+4
+],
+"def": "hungry",
+"pyAlt": [
+"é",
+"ē",
+"ě"
+]
+},
+{
+"id": "L3-063",
+"lv": 3,
+"hz": "耳朵",
+"py": "ěrduo",
+"tones": [
+3,
+5
+],
+"def": "ear",
+"pyAlt": [
+"ērduò",
+"èrduǒ",
+"èrduò"
+]
+},
+{
+"id": "L3-064",
+"lv": 3,
+"hz": "发",
+"py": "fā",
+"tones": [
+1
+],
+"def": "to send (e.g. an email); to issue",
+"pyAlt": [
+"fá",
+"fà",
+"fǎ"
+]
+},
+{
+"id": "L3-065",
+"lv": 3,
+"hz": "发烧",
+"py": "fāshāo",
+"tones": [
+1,
+1
+],
+"def": "have a fever",
+"pyAlt": [
+"fàshǎo",
+"fāsháo",
+"fáshǎo"
+]
+},
+{
+"id": "L3-066",
+"lv": 3,
+"hz": "发现",
+"py": "fāxiàn",
+"tones": [
+1,
+4
+],
+"def": "discover; to find",
+"pyAlt": [
+"fáxiǎn",
+"fàxián",
+"fǎxiǎn"
+]
+},
+{
+"id": "L3-067",
+"lv": 3,
+"hz": "方便",
+"py": "fāngbiàn",
+"tones": [
+1,
+4
+],
+"def": "convenient",
+"pyAlt": [
+"fàngbiān",
+"fángbiàn",
+"fāngbiǎn"
+]
+},
+{
+"id": "L3-068",
+"lv": 3,
+"hz": "放",
+"py": "fàng",
+"tones": [
+4
+],
+"def": "put; to place; to release",
+"pyAlt": [
+"fáng",
+"fāng",
+"fǎng"
+]
+},
+{
+"id": "L3-069",
+"lv": 3,
+"hz": "放心",
+"py": "fàngxīn",
+"tones": [
+4,
+1
+],
+"def": "relax; feel relieved; rest assured",
+"pyAlt": [
+"fāngxìn",
+"fàngxín",
+"fángxǐn"
+]
+},
+{
+"id": "L3-070",
+"lv": 3,
+"hz": "分",
+"py": "fēn",
+"tones": [
+1
+],
+"def": "minute; point (score); cent",
+"pyAlt": [
+"fèn",
+"fěn",
+"fén"
+]
+},
+{
+"id": "L3-071",
+"lv": 3,
+"hz": "附近",
+"py": "fùjìn",
+"tones": [
+4,
+4
+],
+"def": "(in the) vicinity; nearby; neighboring",
+"pyAlt": [
+"fújín",
+"fújīn",
+"fújìn"
+]
+},
+{
+"id": "L3-072",
+"lv": 3,
+"hz": "复习",
+"py": "fùxí",
+"tones": [
+4,
+2
+],
+"def": "revise; to review",
+"pyAlt": [
+"fùxī",
+"fūxí",
+"fǔxī"
+]
+},
+{
+"id": "L3-073",
+"lv": 3,
+"hz": "干净",
+"py": "gānjìng",
+"tones": [
+1,
+4
+],
+"def": "clean; neat and tidy",
+"pyAlt": [
+"gānjíng",
+"gànjíng",
+"gānjīng"
+]
+},
+{
+"id": "L3-074",
+"lv": 3,
+"hz": "感冒",
+"py": "gǎnmào",
+"tones": [
+3,
+4
+],
+"def": "catch cold; (common) cold",
+"pyAlt": [
+"gānmáo",
+"gànmáo",
+"gǎnmáo"
+]
+},
+{
+"id": "L3-075",
+"lv": 3,
+"hz": "感兴趣",
+"py": "gǎnxìngqù",
+"tones": [
+3,
+4,
+4
+],
+"def": "be interested in",
+"pyAlt": [
+"gánxíngqú",
+"gǎnxìngqū",
+"gǎnxíngqù"
+]
+},
+{
+"id": "L3-076",
+"lv": 3,
+"hz": "刚才",
+"py": "gāngcái",
+"tones": [
+1,
+2
+],
+"def": "just now; a moment ago",
+"pyAlt": [
+"gángcái",
+"gángcāi",
+"gángcǎi"
+]
+},
+{
+"id": "L3-077",
+"lv": 3,
+"hz": "个子",
+"py": "gèzi",
+"tones": [
+4,
+5
+],
+"def": "height; stature; build",
+"pyAlt": [
+"gēzī",
+"gézī",
+"gězī"
+]
+},
+{
+"id": "L3-078",
+"lv": 3,
+"hz": "根据",
+"py": "gēnjù",
+"tones": [
+1,
+4
+],
+"def": "according to; based on; basis",
+"pyAlt": [
+"gènjǔ",
+"gēnjú",
+"gènjù"
+]
+},
+{
+"id": "L3-079",
+"lv": 3,
+"hz": "跟",
+"py": "gēn",
+"tones": [
+1
+],
+"def": "to follow; go with; heel",
+"pyAlt": [
+"gén",
+"gèn",
+"gěn"
+]
+},
+{
+"id": "L3-080",
+"lv": 3,
+"hz": "更",
+"py": "gèng",
+"tones": [
+4
+],
+"def": "more; even more",
+"pyAlt": [
+"géng",
+"gēng",
+"gěng"
+]
+},
+{
+"id": "L3-081",
+"lv": 3,
+"hz": "公斤",
+"py": "gōngjīn",
+"tones": [
+1,
+1
+],
+"def": "kilogram",
+"pyAlt": [
+"gòngjǐn",
+"gōngjín",
+"gōngjìn"
+]
+},
+{
+"id": "L3-082",
+"lv": 3,
+"hz": "公园",
+"py": "gōngyuán",
+"tones": [
+1,
+2
+],
+"def": "public park",
+"pyAlt": [
+"góngyuàn",
+"gōngyuǎn",
+"gǒngyuán"
+]
+},
+{
+"id": "L3-083",
+"lv": 3,
+"hz": "故事",
+"py": "gùshi",
+"tones": [
+4,
+5
+],
+"def": "story; tale",
+"pyAlt": [
+"gùshǐ",
+"gúshǐ",
+"gùshì"
+]
+},
+{
+"id": "L3-084",
+"lv": 3,
+"hz": "刮风",
+"py": "guāfēng",
+"tones": [
+1,
+1
+],
+"def": "windy; to blow (wind)",
+"pyAlt": [
+"guǎféng",
+"guāféng",
+"guàfēng"
+]
+},
+{
+"id": "L3-085",
+"lv": 3,
+"hz": "关",
+"py": "guān",
+"tones": [
+1
+],
+"def": "to close; shut; concern",
+"pyAlt": [
+"guǎn",
+"guán",
+"guàn"
+]
+},
+{
+"id": "L3-086",
+"lv": 3,
+"hz": "关系",
+"py": "guānxi",
+"tones": [
+1,
+5
+],
+"def": "relation; to concern",
+"pyAlt": [
+"guānxì",
+"guànxì",
+"guànxi"
+]
+},
+{
+"id": "L3-087",
+"lv": 3,
+"hz": "关心",
+"py": "guānxīn",
+"tones": [
+1,
+1
+],
+"def": "concerned about/with",
+"pyAlt": [
+"guánxìn",
+"guánxǐn",
+"guánxín"
+]
+},
+{
+"id": "L3-088",
+"lv": 3,
+"hz": "关于",
+"py": "guānyú",
+"tones": [
+1,
+2
+],
+"def": "about; regarding; concerning",
+"pyAlt": [
+"guǎnyǔ",
+"guǎnyū",
+"guànyú"
+]
+},
+{
+"id": "L3-089",
+"lv": 3,
+"hz": "国家",
+"py": "guójiā",
+"tones": [
+2,
+1
+],
+"def": "country; state; nation",
+"pyAlt": [
+"guòjiǎ",
+"guòjiā",
+"guǒjiǎ"
+]
+},
+{
+"id": "L3-090",
+"lv": 3,
+"hz": "过",
+"py": "guo",
+"tones": [
+5
+],
+"def": "(particle: past experience)",
+"pyAlt": [
+"guō",
+"guò",
+"guǒ"
+]
+},
+{
+"id": "L3-091",
+"lv": 3,
+"hz": "过去",
+"py": "guòqù",
+"tones": [
+4,
+4
+],
+"def": "in the past; formerly",
+"pyAlt": [
+"guōqǔ",
+"guǒqǔ",
+"guóqú"
+]
+},
+{
+"id": "L3-092",
+"lv": 3,
+"hz": "还是",
+"py": "háishi",
+"tones": [
+2,
+5
+],
+"def": "or; still; nevertheless",
+"pyAlt": [
+"háishí",
+"háishǐ",
+"háishī"
+]
+},
+{
+"id": "L3-093",
+"lv": 3,
+"hz": "害怕",
+"py": "hàipà",
+"tones": [
+4,
+4
+],
+"def": "afraid of; to fear",
+"pyAlt": [
+"hǎipā",
+"hàipǎ",
+"hàipā"
+]
+},
+{
+"id": "L3-094",
+"lv": 3,
+"hz": "黑板",
+"py": "hēibǎn",
+"tones": [
+1,
+3
+],
+"def": "blackboard",
+"pyAlt": [
+"hèibàn",
+"héibān",
+"hēibàn"
+]
+},
+{
+"id": "L3-095",
+"lv": 3,
+"hz": "后来",
+"py": "hòulái",
+"tones": [
+4,
+2
+],
+"def": "afterwards; after; later",
+"pyAlt": [
+"hòulǎi",
+"hǒulāi",
+"hǒulǎi"
+]
+},
+{
+"id": "L3-096",
+"lv": 3,
+"hz": "护照",
+"py": "hùzhào",
+"tones": [
+4,
+4
+],
+"def": "passport",
+"pyAlt": [
+"hūzhào",
+"hǔzhǎo",
+"húzháo"
+]
+},
+{
+"id": "L3-097",
+"lv": 3,
+"hz": "花",
+"py": "huā",
+"tones": [
+1
+],
+"def": "flower; blossom; spend money",
+"pyAlt": [
+"huá",
+"huà",
+"huǎ"
+]
+},
+{
+"id": "L3-098",
+"lv": 3,
+"hz": "画",
+"py": "huà",
+"tones": [
+4
+],
+"def": "draw; picture; painting",
+"pyAlt": [
+"huǎ",
+"huá",
+"huā"
+]
+},
+{
+"id": "L3-099",
+"lv": 3,
+"hz": "坏",
+"py": "huài",
+"tones": [
+4
+],
+"def": "bad; broken",
+"pyAlt": [
+"huǎi",
+"huāi",
+"huái"
+]
+},
+{
+"id": "L3-100",
+"lv": 3,
+"hz": "欢迎",
+"py": "huānyíng",
+"tones": [
+1,
+2
+],
+"def": "to welcome; greet",
+"pyAlt": [
+"huànyìng",
+"huǎnyīng",
+"huányǐng"
+]
+},
+{
+"id": "L3-101",
+"lv": 3,
+"hz": "还",
+"py": "huán",
+"tones": [
+2
+],
+"def": "to return (something); to give back",
+"pyAlt": [
+"huǎn",
+"huān",
+"huàn"
+]
+},
+{
+"id": "L3-102",
+"lv": 3,
+"hz": "环境",
+"py": "huánjìng",
+"tones": [
+2,
+4
+],
+"def": "environment; surroundings",
+"pyAlt": [
+"huánjíng",
+"huǎnjíng",
+"huànjīng"
+]
+},
+{
+"id": "L3-103",
+"lv": 3,
+"hz": "换",
+"py": "huàn",
+"tones": [
+4
+],
+"def": "change; to exchange; to barter",
+"pyAlt": [
+"huǎn",
+"huán",
+"huān"
+]
+},
+{
+"id": "L3-104",
+"lv": 3,
+"hz": "黄河",
+"py": "huánghé",
+"tones": [
+2,
+2
+],
+"def": "Yellow River",
+"pyAlt": [
+"huánghē",
+"huānghé",
+"huǎnghē"
+]
+},
+{
+"id": "L3-105",
+"lv": 3,
+"hz": "回答",
+"py": "huídá",
+"tones": [
+2,
+2
+],
+"def": "to reply; to answer",
+"pyAlt": [
+"huìdā",
+"huǐdǎ",
+"huīdǎ"
+]
+},
+{
+"id": "L3-106",
+"lv": 3,
+"hz": "会议",
+"py": "huìyì",
+"tones": [
+4,
+4
+],
+"def": "meeting; conference",
+"pyAlt": [
+"huíyī",
+"huìyǐ",
+"huìyí"
+]
+},
+{
+"id": "L3-107",
+"lv": 3,
+"hz": "或者",
+"py": "huòzhě",
+"tones": [
+4,
+3
+],
+"def": "or; possible; maybe",
+"pyAlt": [
+"huōzhé",
+"huòzhé",
+"huǒzhè"
+]
+},
+{
+"id": "L3-108",
+"lv": 3,
+"hz": "几乎",
+"py": "jīhū",
+"tones": [
+1,
+1
+],
+"def": "almost",
+"pyAlt": [
+"jǐhú",
+"jìhú",
+"jìhū"
+]
+},
+{
+"id": "L3-109",
+"lv": 3,
+"hz": "机会",
+"py": "jīhuì",
+"tones": [
+1,
+4
+],
+"def": "opportunity; chance; occasion",
+"pyAlt": [
+"jǐhuí",
+"jíhuì",
+"jìhuí"
+]
+},
+{
+"id": "L3-110",
+"lv": 3,
+"hz": "极",
+"py": "jí",
+"tones": [
+2
+],
+"def": "extremely (…极了)",
+"pyAlt": [
+"jī",
+"jì",
+"jǐ"
+]
+},
+{
+"id": "L3-111",
+"lv": 3,
+"hz": "记得",
+"py": "jìde",
+"tones": [
+4,
+5
+],
+"def": "remember",
+"pyAlt": [
+"jídē",
+"jìdè",
+"jìdē"
+]
+},
+{
+"id": "L3-112",
+"lv": 3,
+"hz": "季节",
+"py": "jìjié",
+"tones": [
+4,
+2
+],
+"def": "season; time; period",
+"pyAlt": [
+"jíjiě",
+"jījiě",
+"jìjiè"
+]
+},
+{
+"id": "L3-113",
+"lv": 3,
+"hz": "检查",
+"py": "jiǎnchá",
+"tones": [
+3,
+2
+],
+"def": "to check; examine; inspect",
+"pyAlt": [
+"jiànchǎ",
+"jiánchǎ",
+"jiǎnchā"
+]
+},
+{
+"id": "L3-114",
+"lv": 3,
+"hz": "简单",
+"py": "jiǎndān",
+"tones": [
+3,
+1
+],
+"def": "simple; not complicated",
+"pyAlt": [
+"jiàndǎn",
+"jiándán",
+"jiǎndán"
+]
+},
+{
+"id": "L3-115",
+"lv": 3,
+"hz": "见面",
+"py": "jiànmiàn",
+"tones": [
+4,
+4
+],
+"def": "meet/see somebody; meeting",
+"pyAlt": [
+"jiǎnmiàn",
+"jiànmián",
+"jiànmiān"
+]
+},
+{
+"id": "L3-116",
+"lv": 3,
+"hz": "健康",
+"py": "jiànkāng",
+"tones": [
+4,
+1
+],
+"def": "health; healthy",
+"pyAlt": [
+"jiānkáng",
+"jiánkǎng",
+"jiànkáng"
+]
+},
+{
+"id": "L3-117",
+"lv": 3,
+"hz": "讲",
+"py": "jiǎng",
+"tones": [
+3
+],
+"def": "to talk; to lecture; to explain",
+"pyAlt": [
+"jiáng",
+"jiàng",
+"jiāng"
+]
+},
+{
+"id": "L3-118",
+"lv": 3,
+"hz": "教",
+"py": "jiāo",
+"tones": [
+1
+],
+"def": "to teach",
+"pyAlt": [
+"jiǎo",
+"jiáo",
+"jiào"
+]
+},
+{
+"id": "L3-119",
+"lv": 3,
+"hz": "角",
+"py": "jiǎo",
+"tones": [
+3
+],
+"def": "horn; corner; jiao (0.1 yuan)",
+"pyAlt": [
+"jiāo",
+"jiào",
+"jiáo"
+]
+},
+{
+"id": "L3-120",
+"lv": 3,
+"hz": "脚",
+"py": "jiǎo",
+"tones": [
+3
+],
+"def": "foot (body part)",
+"pyAlt": [
+"jiāo",
+"jiáo",
+"jiào"
+]
+},
+{
+"id": "L3-121",
+"lv": 3,
+"hz": "接",
+"py": "jiē",
+"tones": [
+1
+],
+"def": "connect; to meet; to pick up (somebody)",
+"pyAlt": [
+"jiè",
+"jiě",
+"jié"
+]
+},
+{
+"id": "L3-122",
+"lv": 3,
+"hz": "街道",
+"py": "jiēdào",
+"tones": [
+1,
+4
+],
+"def": "street",
+"pyAlt": [
+"jiédào",
+"jiědāo",
+"jiédáo"
+]
+},
+{
+"id": "L3-123",
+"lv": 3,
+"hz": "节目",
+"py": "jiémù",
+"tones": [
+2,
+4
+],
+"def": "program; item (on a program)",
+"pyAlt": [
+"jièmū",
+"jiěmǔ",
+"jiémǔ"
+]
+},
+{
+"id": "L3-124",
+"lv": 3,
+"hz": "节日",
+"py": "jiérì",
+"tones": [
+2,
+4
+],
+"def": "holiday; festival",
+"pyAlt": [
+"jièrí",
+"jiérī",
+"jiérí"
+]
+},
+{
+"id": "L3-125",
+"lv": 3,
+"hz": "结婚",
+"py": "jiéhūn",
+"tones": [
+2,
+1
+],
+"def": "get married",
+"pyAlt": [
+"jiēhǔn",
+"jiēhūn",
+"jiēhùn"
+]
+},
+{
+"id": "L3-126",
+"lv": 3,
+"hz": "结束",
+"py": "jiéshù",
+"tones": [
+2,
+4
+],
+"def": "to end; to finish; conclude",
+"pyAlt": [
+"jièshū",
+"jiéshú",
+"jièshù"
+]
+},
+{
+"id": "L3-127",
+"lv": 3,
+"hz": "解决",
+"py": "jiějué",
+"tones": [
+3,
+2
+],
+"def": "settle (a dispute); resolve; solve",
+"pyAlt": [
+"jièjuě",
+"jiējuè",
+"jiějuè"
+]
+},
+{
+"id": "L3-128",
+"lv": 3,
+"hz": "借",
+"py": "jiè",
+"tones": [
+4
+],
+"def": "lend; borrow; excuse",
+"pyAlt": [
+"jié",
+"jiě",
+"jiē"
+]
+},
+{
+"id": "L3-129",
+"lv": 3,
+"hz": "经常",
+"py": "jīngcháng",
+"tones": [
+1,
+2
+],
+"def": "often; frequently; daily",
+"pyAlt": [
+"jíngchǎng",
+"jíngchāng",
+"jìngcháng"
+]
+},
+{
+"id": "L3-130",
+"lv": 3,
+"hz": "经过",
+"py": "jīngguò",
+"tones": [
+1,
+4
+],
+"def": "to pass; go through; as a result of",
+"pyAlt": [
+"jǐngguó",
+"jíngguǒ",
+"jìngguó"
+]
+},
+{
+"id": "L3-131",
+"lv": 3,
+"hz": "经理",
+"py": "jīnglǐ",
+"tones": [
+1,
+3
+],
+"def": "manager; director",
+"pyAlt": [
+"jínglī",
+"jìnglì",
+"jīnglí"
+]
+},
+{
+"id": "L3-132",
+"lv": 3,
+"hz": "久",
+"py": "jiǔ",
+"tones": [
+3
+],
+"def": "long (time)",
+"pyAlt": [
+"jiū",
+"jiù",
+"jiú"
+]
+},
+{
+"id": "L3-133",
+"lv": 3,
+"hz": "旧",
+"py": "jiù",
+"tones": [
+4
+],
+"def": "old; past; used",
+"pyAlt": [
+"jiǔ",
+"jiú",
+"jiū"
+]
+},
+{
+"id": "L3-134",
+"lv": 3,
+"hz": "句子",
+"py": "jùzi",
+"tones": [
+4,
+5
+],
+"def": "sentence",
+"pyAlt": [
+"jùzí",
+"júzì",
+"jǔzī"
+]
+},
+{
+"id": "L3-135",
+"lv": 3,
+"hz": "决定",
+"py": "juédìng",
+"tones": [
+2,
+4
+],
+"def": "decide; resolve",
+"pyAlt": [
+"juédīng",
+"juédíng",
+"juèdíng"
+]
+},
+{
+"id": "L3-136",
+"lv": 3,
+"hz": "可爱",
+"py": "kě'ài",
+"tones": [
+3,
+4
+],
+"def": "cute; lovely",
+"pyAlt": [
+"kě'ái",
+"kè'ài",
+"ké'ài"
+]
+},
+{
+"id": "L3-137",
+"lv": 3,
+"hz": "渴",
+"py": "kě",
+"tones": [
+3
+],
+"def": "thirsty",
+"pyAlt": [
+"kè",
+"kē",
+"ké"
+]
+},
+{
+"id": "L3-138",
+"lv": 3,
+"hz": "刻",
+"py": "kè",
+"tones": [
+4
+],
+"def": "quarter (hour); (mw for short time intervals); carve",
+"pyAlt": [
+"kě",
+"kē",
+"ké"
+]
+},
+{
+"id": "L3-139",
+"lv": 3,
+"hz": "客人",
+"py": "kèrén",
+"tones": [
+4,
+2
+],
+"def": "guest; customer",
+"pyAlt": [
+"kérén",
+"kērēn",
+"kērěn"
+]
+},
+{
+"id": "L3-140",
+"lv": 3,
+"hz": "空调",
+"py": "kōngtiáo",
+"tones": [
+1,
+2
+],
+"def": "air conditioning",
+"pyAlt": [
+"kōngtiāo",
+"kōngtiǎo",
+"kóngtiáo"
+]
+},
+{
+"id": "L3-141",
+"lv": 3,
+"hz": "口",
+"py": "kǒu",
+"tones": [
+3
+],
+"def": "mouth",
+"pyAlt": [
+"kóu",
+"kōu",
+"kòu"
+]
+},
+{
+"id": "L3-142",
+"lv": 3,
+"hz": "哭",
+"py": "kū",
+"tones": [
+1
+],
+"def": "cry; weep",
+"pyAlt": [
+"kù",
+"kú",
+"kǔ"
+]
+},
+{
+"id": "L3-143",
+"lv": 3,
+"hz": "裤子",
+"py": "kùzi",
+"tones": [
+4,
+5
+],
+"def": "pants; trousers",
+"pyAlt": [
+"kūzī",
+"kūzì",
+"kúzì"
+]
+},
+{
+"id": "L3-144",
+"lv": 3,
+"hz": "筷子",
+"py": "kuàizi",
+"tones": [
+4,
+5
+],
+"def": "chopsticks",
+"pyAlt": [
+"kuáizi",
+"kuàizǐ",
+"kuǎizí"
+]
+},
+{
+"id": "L3-145",
+"lv": 3,
+"hz": "蓝",
+"py": "lán",
+"tones": [
+2
+],
+"def": "blue",
+"pyAlt": [
+"lān",
+"làn",
+"lǎn"
+]
+},
+{
+"id": "L3-146",
+"lv": 3,
+"hz": "老",
+"py": "lǎo",
+"tones": [
+3
+],
+"def": "old; aged; tough",
+"pyAlt": [
+"lāo",
+"lào",
+"láo"
+]
+},
+{
+"id": "L3-147",
+"lv": 3,
+"hz": "离开",
+"py": "líkāi",
+"tones": [
+2,
+1
+],
+"def": "leave; depart",
+"pyAlt": [
+"lǐkāi",
+"líkài",
+"lǐkái"
+]
+},
+{
+"id": "L3-148",
+"lv": 3,
+"hz": "礼物",
+"py": "lǐwù",
+"tones": [
+3,
+4
+],
+"def": "gift; present",
+"pyAlt": [
+"lǐwú",
+"líwù",
+"líwǔ"
+]
+},
+{
+"id": "L3-149",
+"lv": 3,
+"hz": "历史",
+"py": "lìshǐ",
+"tones": [
+4,
+3
+],
+"def": "history",
+"pyAlt": [
+"līshǐ",
+"lǐshǐ",
+"lìshí"
+]
+},
+{
+"id": "L3-150",
+"lv": 3,
+"hz": "脸",
+"py": "liǎn",
+"tones": [
+3
+],
+"def": "face",
+"pyAlt": [
+"liān",
+"lián",
+"liàn"
+]
+},
+{
+"id": "L3-151",
+"lv": 3,
+"hz": "练习",
+"py": "liànxí",
+"tones": [
+4,
+2
+],
+"def": "practice; exercise",
+"pyAlt": [
+"liánxì",
+"liànxì",
+"liānxí"
+]
+},
+{
+"id": "L3-152",
+"lv": 3,
+"hz": "辆",
+"py": "liàng",
+"tones": [
+4
+],
+"def": "(mw for vehicles)",
+"pyAlt": [
+"liǎng",
+"liāng",
+"liáng"
+]
+},
+{
+"id": "L3-153",
+"lv": 3,
+"hz": "聊天",
+"py": "liáotiān",
+"tones": [
+2,
+1
+],
+"def": "to chat",
+"pyAlt": [
+"liāotiǎn",
+"liàotián",
+"liǎotiàn"
+]
+},
+{
+"id": "L3-154",
+"lv": 3,
+"hz": "了解",
+"py": "liǎojiě",
+"tones": [
+3,
+3
+],
+"def": "comprehend; understand; know",
+"pyAlt": [
+"liáojiē",
+"liàojiě",
+"liàojié"
+]
+},
+{
+"id": "L3-155",
+"lv": 3,
+"hz": "邻居",
+"py": "línjū",
+"tones": [
+2,
+1
+],
+"def": "neighbor",
+"pyAlt": [
+"lǐnjù",
+"līnjǔ",
+"lìnjú"
+]
+},
+{
+"id": "L3-156",
+"lv": 3,
+"hz": "留学",
+"py": "liúxué",
+"tones": [
+2,
+2
+],
+"def": "study abroad",
+"pyAlt": [
+"liūxuē",
+"liūxuè",
+"liǔxué"
+]
+},
+{
+"id": "L3-157",
+"lv": 3,
+"hz": "楼",
+"py": "lóu",
+"tones": [
+2
+],
+"def": "story; floor; (multi-story) building",
+"pyAlt": [
+"lòu",
+"lōu",
+"lǒu"
+]
+},
+{
+"id": "L3-158",
+"lv": 3,
+"hz": "绿",
+"py": "lǜ",
+"tones": [
+4
+],
+"def": "green",
+"pyAlt": [
+"lǚ",
+"lǘ",
+"lǖ"
+]
+},
+{
+"id": "L3-159",
+"lv": 3,
+"hz": "马",
+"py": "mǎ",
+"tones": [
+3
+],
+"def": "horse",
+"pyAlt": [
+"má",
+"mā",
+"mà"
+]
+},
+{
+"id": "L3-160",
+"lv": 3,
+"hz": "马上",
+"py": "mǎshàng",
+"tones": [
+3,
+4
+],
+"def": "at once; immediately; right away",
+"pyAlt": [
+"mǎshǎng",
+"màshāng",
+"máshàng"
+]
+},
+{
+"id": "L3-161",
+"lv": 3,
+"hz": "满意",
+"py": "mǎnyì",
+"tones": [
+3,
+4
+],
+"def": "satisfied; pleased",
+"pyAlt": [
+"mànyí",
+"mǎnyí",
+"mǎnyī"
+]
+},
+{
+"id": "L3-162",
+"lv": 3,
+"hz": "帽子",
+"py": "màozi",
+"tones": [
+4,
+5
+],
+"def": "hat; cap",
+"pyAlt": [
+"māozì",
+"mǎozi",
+"máozì"
+]
+},
+{
+"id": "L3-163",
+"lv": 3,
+"hz": "米",
+"py": "mǐ",
+"tones": [
+3
+],
+"def": "rice; meter",
+"pyAlt": [
+"mí",
+"mī",
+"mì"
+]
+},
+{
+"id": "L3-164",
+"lv": 3,
+"hz": "面包",
+"py": "miànbāo",
+"tones": [
+4,
+1
+],
+"def": "bread",
+"pyAlt": [
+"miānbào",
+"miǎnbáo",
+"miǎnbào"
+]
+},
+{
+"id": "L3-165",
+"lv": 3,
+"hz": "明白",
+"py": "míngbai",
+"tones": [
+2,
+5
+],
+"def": "clear; obvious; understand",
+"pyAlt": [
+"míngbāi",
+"mīngbai",
+"mīngbái"
+]
+},
+{
+"id": "L3-166",
+"lv": 3,
+"hz": "拿",
+"py": "ná",
+"tones": [
+2
+],
+"def": "carry in your hand; seize; to catch",
+"pyAlt": [
+"nǎ",
+"nà",
+"nā"
+]
+},
+{
+"id": "L3-167",
+"lv": 3,
+"hz": "奶奶",
+"py": "nǎinai",
+"tones": [
+3,
+5
+],
+"def": "grandma; (informal) paternal grandmother",
+"pyAlt": [
+"nǎinǎi",
+"nàinai",
+"náinài"
+]
+},
+{
+"id": "L3-168",
+"lv": 3,
+"hz": "南",
+"py": "nán",
+"tones": [
+2
+],
+"def": "South",
+"pyAlt": [
+"nǎn",
+"nàn",
+"nān"
+]
+},
+{
+"id": "L3-169",
+"lv": 3,
+"hz": "难",
+"py": "nán",
+"tones": [
+2
+],
+"def": "difficult",
+"pyAlt": [
+"nàn",
+"nān",
+"nǎn"
+]
+},
+{
+"id": "L3-170",
+"lv": 3,
+"hz": "难过",
+"py": "nánguò",
+"tones": [
+2,
+4
+],
+"def": "be grieved; be sad; have a hard time",
+"pyAlt": [
+"nánguō",
+"nānguō",
+"nánguǒ"
+]
+},
+{
+"id": "L3-171",
+"lv": 3,
+"hz": "年级",
+"py": "niánjí",
+"tones": [
+2,
+2
+],
+"def": "grade; year (in school)",
+"pyAlt": [
+"niánjǐ",
+"niànjǐ",
+"niǎnjī"
+]
+},
+{
+"id": "L3-172",
+"lv": 3,
+"hz": "年轻",
+"py": "niánqīng",
+"tones": [
+2,
+1
+],
+"def": "young",
+"pyAlt": [
+"niānqìng",
+"niǎnqíng",
+"niǎnqǐng"
+]
+},
+{
+"id": "L3-173",
+"lv": 3,
+"hz": "鸟",
+"py": "niǎo",
+"tones": [
+3
+],
+"def": "bird",
+"pyAlt": [
+"niāo",
+"niáo",
+"niào"
+]
+},
+{
+"id": "L3-174",
+"lv": 3,
+"hz": "努力",
+"py": "nǔlì",
+"tones": [
+3,
+4
+],
+"def": "to work hard; to strive",
+"pyAlt": [
+"nùlǐ",
+"nùlì",
+"núlí"
+]
+},
+{
+"id": "L3-175",
+"lv": 3,
+"hz": "爬山",
+"py": "páshān",
+"tones": [
+2,
+1
+],
+"def": "mountain climbing",
+"pyAlt": [
+"pāshān",
+"pāshǎn",
+"pāshàn"
+]
+},
+{
+"id": "L3-176",
+"lv": 3,
+"hz": "盘子",
+"py": "pánzi",
+"tones": [
+2,
+5
+],
+"def": "plate; dish; tray",
+"pyAlt": [
+"pǎnzi",
+"pánzì",
+"pànzī"
+]
+},
+{
+"id": "L3-177",
+"lv": 3,
+"hz": "胖",
+"py": "pàng",
+"tones": [
+4
+],
+"def": "fat; plump",
+"pyAlt": [
+"pāng",
+"pǎng",
+"páng"
+]
+},
+{
+"id": "L3-178",
+"lv": 3,
+"hz": "皮鞋",
+"py": "píxié",
+"tones": [
+2,
+2
+],
+"def": "leather shoes",
+"pyAlt": [
+"pīxiě",
+"pīxiè",
+"píxiē"
+]
+},
+{
+"id": "L3-179",
+"lv": 3,
+"hz": "啤酒",
+"py": "píjiǔ",
+"tones": [
+2,
+3
+],
+"def": "beer",
+"pyAlt": [
+"pǐjiú",
+"pījiù",
+"pìjiǔ"
+]
+},
+{
+"id": "L3-180",
+"lv": 3,
+"hz": "瓶子",
+"py": "píngzi",
+"tones": [
+2,
+5
+],
+"def": "bottle",
+"pyAlt": [
+"píngzí",
+"píngzǐ",
+"pǐngzǐ"
+]
+},
+{
+"id": "L3-181",
+"lv": 3,
+"hz": "其实",
+"py": "qíshí",
+"tones": [
+2,
+2
+],
+"def": "actually; in fact",
+"pyAlt": [
+"qǐshǐ",
+"qīshì",
+"qīshī"
+]
+},
+{
+"id": "L3-182",
+"lv": 3,
+"hz": "其他",
+"py": "qítā",
+"tones": [
+2,
+1
+],
+"def": "other; else",
+"pyAlt": [
+"qítǎ",
+"qǐtā",
+"qǐtà"
+]
+},
+{
+"id": "L3-183",
+"lv": 3,
+"hz": "奇怪",
+"py": "qíguài",
+"tones": [
+2,
+4
+],
+"def": "strange; odd",
+"pyAlt": [
+"qǐguài",
+"qíguái",
+"qíguāi"
+]
+},
+{
+"id": "L3-184",
+"lv": 3,
+"hz": "骑",
+"py": "qí",
+"tones": [
+2
+],
+"def": "to ride (an animal or bike); to sit astride",
+"pyAlt": [
+"qǐ",
+"qì",
+"qī"
+]
+},
+{
+"id": "L3-185",
+"lv": 3,
+"hz": "起飞",
+"py": "qǐfēi",
+"tones": [
+3,
+1
+],
+"def": "take off (in an airplane); liftoff",
+"pyAlt": [
+"qífēi",
+"qīféi",
+"qīfěi"
+]
+},
+{
+"id": "L3-186",
+"lv": 3,
+"hz": "起来",
+"py": "qǐlai",
+"tones": [
+3,
+5
+],
+"def": "(beginning or continuing an action); to rise",
+"pyAlt": [
+"qǐlài",
+"qílài",
+"qílái"
+]
+},
+{
+"id": "L3-187",
+"lv": 3,
+"hz": "清楚",
+"py": "qīngchu",
+"tones": [
+1,
+5
+],
+"def": "clear; distinct; be clear about",
+"pyAlt": [
+"qīngchù",
+"qìngchǔ",
+"qíngchǔ"
+]
+},
+{
+"id": "L3-188",
+"lv": 3,
+"hz": "请假",
+"py": "qǐngjià",
+"tones": [
+3,
+4
+],
+"def": "to ask for time off",
+"pyAlt": [
+"qíngjià",
+"qíngjiā",
+"qíngjiá"
+]
+},
+{
+"id": "L3-189",
+"lv": 3,
+"hz": "秋",
+"py": "qiū",
+"tones": [
+1
+],
+"def": "autumn; fall; harvest time",
+"pyAlt": [
+"qiú",
+"qiǔ",
+"qiù"
+]
+},
+{
+"id": "L3-190",
+"lv": 3,
+"hz": "裙子",
+"py": "qúnzi",
+"tones": [
+2,
+5
+],
+"def": "skirt",
+"pyAlt": [
+"qúnzí",
+"qūnzǐ",
+"qùnzi"
+]
+},
+{
+"id": "L3-191",
+"lv": 3,
+"hz": "然后",
+"py": "ránhòu",
+"tones": [
+2,
+4
+],
+"def": "then; afterwards",
+"pyAlt": [
+"rǎnhǒu",
+"rānhóu",
+"rānhǒu"
+]
+},
+{
+"id": "L3-192",
+"lv": 3,
+"hz": "热情",
+"py": "rèqíng",
+"tones": [
+4,
+2
+],
+"def": "cordial; warm; enthusiastic",
+"pyAlt": [
+"rěqìng",
+"réqīng",
+"rēqíng"
+]
+},
+{
+"id": "L3-193",
+"lv": 3,
+"hz": "认为",
+"py": "rènwéi",
+"tones": [
+4,
+2
+],
+"def": "believe; think that",
+"pyAlt": [
+"rēnwēi",
+"rēnwéi",
+"rènwēi"
+]
+},
+{
+"id": "L3-194",
+"lv": 3,
+"hz": "认真",
+"py": "rènzhēn",
+"tones": [
+4,
+1
+],
+"def": "serious; earnest; take seriously",
+"pyAlt": [
+"rènzhén",
+"rénzhèn",
+"rènzhěn"
+]
+},
+{
+"id": "L3-195",
+"lv": 3,
+"hz": "容易",
+"py": "róngyì",
+"tones": [
+2,
+4
+],
+"def": "easy; likely; liable (to)",
+"pyAlt": [
+"rōngyǐ",
+"rǒngyǐ",
+"rōngyì"
+]
+},
+{
+"id": "L3-196",
+"lv": 3,
+"hz": "如果",
+"py": "rúguǒ",
+"tones": [
+2,
+3
+],
+"def": "if; in the event that",
+"pyAlt": [
+"rūguǒ",
+"rúguò",
+"rūguó"
+]
+},
+{
+"id": "L3-197",
+"lv": 3,
+"hz": "伞",
+"py": "sǎn",
+"tones": [
+3
+],
+"def": "umbrella; parasol",
+"pyAlt": [
+"sán",
+"sān",
+"sàn"
+]
+},
+{
+"id": "L3-198",
+"lv": 3,
+"hz": "上网",
+"py": "shàngwǎng",
+"tones": [
+4,
+3
+],
+"def": "to surf the web; to go online",
+"pyAlt": [
+"shāngwāng",
+"shǎngwàng",
+"shángwǎng"
+]
+},
+{
+"id": "L3-199",
+"lv": 3,
+"hz": "生气",
+"py": "shēngqì",
+"tones": [
+1,
+4
+],
+"def": "angry; mad",
+"pyAlt": [
+"shèngqī",
+"shèngqí",
+"shèngqì"
+]
+},
+{
+"id": "L3-200",
+"lv": 3,
+"hz": "声音",
+"py": "shēngyīn",
+"tones": [
+1,
+1
+],
+"def": "sound; voice",
+"pyAlt": [
+"shēngyìn",
+"shēngyín",
+"shéngyìn"
+]
+},
+{
+"id": "L3-201",
+"lv": 3,
+"hz": "世界",
+"py": "shìjiè",
+"tones": [
+4,
+4
+],
+"def": "world",
+"pyAlt": [
+"shījiē",
+"shǐjié",
+"shíjiē"
+]
+},
+{
+"id": "L3-202",
+"lv": 3,
+"hz": "试",
+"py": "shì",
+"tones": [
+4
+],
+"def": "to try; to test; examination",
+"pyAlt": [
+"shǐ",
+"shí",
+"shī"
+]
+},
+{
+"id": "L3-203",
+"lv": 3,
+"hz": "瘦",
+"py": "shòu",
+"tones": [
+4
+],
+"def": "thin; tight; lean",
+"pyAlt": [
+"shōu",
+"shǒu",
+"shóu"
+]
+},
+{
+"id": "L3-204",
+"lv": 3,
+"hz": "叔叔",
+"py": "shūshu",
+"tones": [
+1,
+5
+],
+"def": "(informal) father's younger brother; uncle",
+"pyAlt": [
+"shǔshù",
+"shūshū",
+"shùshū"
+]
+},
+{
+"id": "L3-205",
+"lv": 3,
+"hz": "舒服",
+"py": "shūfu",
+"tones": [
+1,
+5
+],
+"def": "comfortable; feeling well",
+"pyAlt": [
+"shúfū",
+"shùfǔ",
+"shūfū"
+]
+},
+{
+"id": "L3-206",
+"lv": 3,
+"hz": "树",
+"py": "shù",
+"tones": [
+4
+],
+"def": "tree",
+"pyAlt": [
+"shǔ",
+"shū",
+"shú"
+]
+},
+{
+"id": "L3-207",
+"lv": 3,
+"hz": "数学",
+"py": "shùxué",
+"tones": [
+4,
+2
+],
+"def": "mathematics",
+"pyAlt": [
+"shūxué",
+"shǔxué",
+"shúxuè"
+]
+},
+{
+"id": "L3-208",
+"lv": 3,
+"hz": "刷牙",
+"py": "shuāyá",
+"tones": [
+1,
+2
+],
+"def": "brush one's teeth",
+"pyAlt": [
+"shuāyǎ",
+"shuáyǎ",
+"shuǎyá"
+]
+},
+{
+"id": "L3-209",
+"lv": 3,
+"hz": "双",
+"py": "shuāng",
+"tones": [
+1
+],
+"def": "two; double; (mw for pairs)",
+"pyAlt": [
+"shuàng",
+"shuáng",
+"shuǎng"
+]
+},
+{
+"id": "L3-210",
+"lv": 3,
+"hz": "水平",
+"py": "shuǐpíng",
+"tones": [
+3,
+2
+],
+"def": "level; standard; horizontal",
+"pyAlt": [
+"shuǐpìng",
+"shuípíng",
+"shuǐpīng"
+]
+},
+{
+"id": "L3-211",
+"lv": 3,
+"hz": "司机",
+"py": "sījī",
+"tones": [
+1,
+1
+],
+"def": "driver; chauffeur",
+"pyAlt": [
+"sǐjǐ",
+"síjì",
+"sījí"
+]
+},
+{
+"id": "L3-212",
+"lv": 3,
+"hz": "太阳",
+"py": "tàiyáng",
+"tones": [
+4,
+2
+],
+"def": "the sun",
+"pyAlt": [
+"tǎiyǎng",
+"táiyáng",
+"tǎiyàng"
+]
+},
+{
+"id": "L3-213",
+"lv": 3,
+"hz": "特别",
+"py": "tèbié",
+"tones": [
+4,
+2
+],
+"def": "special; especially; particular",
+"pyAlt": [
+"tébiè",
+"tèbiě",
+"tēbiè"
+]
+},
+{
+"id": "L3-214",
+"lv": 3,
+"hz": "疼",
+"py": "téng",
+"tones": [
+2
+],
+"def": "ache; sore; (it) hurts",
+"pyAlt": [
+"tèng",
+"těng",
+"tēng"
+]
+},
+{
+"id": "L3-215",
+"lv": 3,
+"hz": "提高",
+"py": "tígāo",
+"tones": [
+2,
+1
+],
+"def": "to raise; heighten; improve",
+"pyAlt": [
+"tìgǎo",
+"tīgáo",
+"tìgāo"
+]
+},
+{
+"id": "L3-216",
+"lv": 3,
+"hz": "体育",
+"py": "tǐyù",
+"tones": [
+3,
+4
+],
+"def": "physical training; sports",
+"pyAlt": [
+"tīyū",
+"tǐyǔ",
+"tìyū"
+]
+},
+{
+"id": "L3-217",
+"lv": 3,
+"hz": "甜",
+"py": "tián",
+"tones": [
+2
+],
+"def": "sweet",
+"pyAlt": [
+"tiān",
+"tiàn",
+"tiǎn"
+]
+},
+{
+"id": "L3-218",
+"lv": 3,
+"hz": "条",
+"py": "tiáo",
+"tones": [
+2
+],
+"def": "strip; (mw for long thin objects); item",
+"pyAlt": [
+"tiāo",
+"tiǎo",
+"tiào"
+]
+},
+{
+"id": "L3-219",
+"lv": 3,
+"hz": "同事",
+"py": "tóngshì",
+"tones": [
+2,
+4
+],
+"def": "colleague; co-worker",
+"pyAlt": [
+"tòngshǐ",
+"tǒngshì",
+"tóngshǐ"
+]
+},
+{
+"id": "L3-220",
+"lv": 3,
+"hz": "同意",
+"py": "tóngyì",
+"tones": [
+2,
+4
+],
+"def": "agree; to consent; approve",
+"pyAlt": [
+"tóngyǐ",
+"tǒngyī",
+"tōngyī"
+]
+},
+{
+"id": "L3-221",
+"lv": 3,
+"hz": "头发",
+"py": "tóufa",
+"tones": [
+2,
+5
+],
+"def": "hair (on the head)",
+"pyAlt": [
+"tòufá",
+"tóufǎ",
+"tōufǎ"
+]
+},
+{
+"id": "L3-222",
+"lv": 3,
+"hz": "突然",
+"py": "tūrán",
+"tones": [
+1,
+2
+],
+"def": "sudden; abrupt",
+"pyAlt": [
+"tǔrǎn",
+"túrán",
+"tǔrān"
+]
+},
+{
+"id": "L3-223",
+"lv": 3,
+"hz": "图书馆",
+"py": "túshūguǎn",
+"tones": [
+2,
+1,
+3
+],
+"def": "library",
+"pyAlt": [
+"tūshúguán",
+"tǔshúguān",
+"tūshūguán"
+]
+},
+{
+"id": "L3-224",
+"lv": 3,
+"hz": "腿",
+"py": "tuǐ",
+"tones": [
+3
+],
+"def": "leg",
+"pyAlt": [
+"tuī",
+"tuí",
+"tuì"
+]
+},
+{
+"id": "L3-225",
+"lv": 3,
+"hz": "完成",
+"py": "wánchéng",
+"tones": [
+2,
+2
+],
+"def": "to complete; accomplish; to fulfill",
+"pyAlt": [
+"wánchèng",
+"wǎnchéng",
+"wànchéng"
+]
+},
+{
+"id": "L3-226",
+"lv": 3,
+"hz": "碗",
+"py": "wǎn",
+"tones": [
+3
+],
+"def": "bowl; cup",
+"pyAlt": [
+"wán",
+"wān",
+"wàn"
+]
+},
+{
+"id": "L3-227",
+"lv": 3,
+"hz": "万",
+"py": "wàn",
+"tones": [
+4
+],
+"def": "ten thousand",
+"pyAlt": [
+"wān",
+"wán",
+"wǎn"
+]
+},
+{
+"id": "L3-228",
+"lv": 3,
+"hz": "忘记",
+"py": "wàngjì",
+"tones": [
+4,
+4
+],
+"def": "forget",
+"pyAlt": [
+"wǎngjì",
+"wàngjī",
+"wāngjí"
+]
+},
+{
+"id": "L3-229",
+"lv": 3,
+"hz": "为",
+"py": "wèi",
+"tones": [
+4
+],
+"def": "for; because of; to",
+"pyAlt": [
+"wěi",
+"wéi",
+"wēi"
+]
+},
+{
+"id": "L3-230",
+"lv": 3,
+"hz": "为了",
+"py": "wèile",
+"tones": [
+4,
+5
+],
+"def": "in order to; for the sake of; for the purpose of",
+"pyAlt": [
+"wèilé",
+"wēilē",
+"wěilé"
+]
+},
+{
+"id": "L3-231",
+"lv": 3,
+"hz": "位",
+"py": "wèi",
+"tones": [
+4
+],
+"def": "position; location; (polite mw for people)",
+"pyAlt": [
+"wēi",
+"wěi",
+"wéi"
+]
+},
+{
+"id": "L3-232",
+"lv": 3,
+"hz": "文化",
+"py": "wénhuà",
+"tones": [
+2,
+4
+],
+"def": "culture; civilization",
+"pyAlt": [
+"wěnhuǎ",
+"wēnhuá",
+"wēnhuā"
+]
+},
+{
+"id": "L3-233",
+"lv": 3,
+"hz": "西",
+"py": "xī",
+"tones": [
+1
+],
+"def": "West",
+"pyAlt": [
+"xí",
+"xǐ",
+"xì"
+]
+},
+{
+"id": "L3-234",
+"lv": 3,
+"hz": "习惯",
+"py": "xíguàn",
+"tones": [
+2,
+4
+],
+"def": "habit; be accustomed to; usual practice",
+"pyAlt": [
+"xíguǎn",
+"xìguàn",
+"xīguǎn"
+]
+},
+{
+"id": "L3-235",
+"lv": 3,
+"hz": "洗手间",
+"py": "xǐshǒujiān",
+"tones": [
+3,
+3,
+1
+],
+"def": "toilet; lavatory; washroom",
+"pyAlt": [
+"xīshǒujiān",
+"xíshóujiàn",
+"xǐshóujiān"
+]
+},
+{
+"id": "L3-236",
+"lv": 3,
+"hz": "洗澡",
+"py": "xǐzǎo",
+"tones": [
+3,
+3
+],
+"def": "bathe; take a bath or shower; bath or shower",
+"pyAlt": [
+"xǐzāo",
+"xīzào",
+"xìzáo"
+]
+},
+{
+"id": "L3-237",
+"lv": 3,
+"hz": "夏",
+"py": "xià",
+"tones": [
+4
+],
+"def": "summer",
+"pyAlt": [
+"xiǎ",
+"xiā",
+"xiá"
+]
+},
+{
+"id": "L3-238",
+"lv": 3,
+"hz": "先",
+"py": "xiān",
+"tones": [
+1
+],
+"def": "first; early; before",
+"pyAlt": [
+"xiàn",
+"xiǎn",
+"xián"
+]
+},
+{
+"id": "L3-239",
+"lv": 3,
+"hz": "相信",
+"py": "xiāngxìn",
+"tones": [
+1,
+4
+],
+"def": "believe (sb.); be convinced of",
+"pyAlt": [
+"xiángxín",
+"xiángxìn",
+"xiǎngxǐn"
+]
+},
+{
+"id": "L3-240",
+"lv": 3,
+"hz": "香蕉",
+"py": "xiāngjiāo",
+"tones": [
+1,
+1
+],
+"def": "banana",
+"pyAlt": [
+"xiāngjiào",
+"xiángjiáo",
+"xiǎngjiáo"
+]
+},
+{
+"id": "L3-241",
+"lv": 3,
+"hz": "向",
+"py": "xiàng",
+"tones": [
+4
+],
+"def": "direction; towards; to turn",
+"pyAlt": [
+"xiǎng",
+"xiāng",
+"xiáng"
+]
+},
+{
+"id": "L3-242",
+"lv": 3,
+"hz": "像",
+"py": "xiàng",
+"tones": [
+4
+],
+"def": "be like; resemble; appearance",
+"pyAlt": [
+"xiāng",
+"xiǎng",
+"xiáng"
+]
+},
+{
+"id": "L3-243",
+"lv": 3,
+"hz": "小心",
+"py": "xiǎoxīn",
+"tones": [
+3,
+1
+],
+"def": "be careful",
+"pyAlt": [
+"xiāoxīn",
+"xiáoxín",
+"xiàoxín"
+]
+},
+{
+"id": "L3-244",
+"lv": 3,
+"hz": "校长",
+"py": "xiàozhǎng",
+"tones": [
+4,
+3
+],
+"def": "principal (of school, college or university); president",
+"pyAlt": [
+"xiàozháng",
+"xiǎozhǎng",
+"xiǎozhàng"
+]
+},
+{
+"id": "L3-245",
+"lv": 3,
+"hz": "新闻",
+"py": "xīnwén",
+"tones": [
+1,
+2
+],
+"def": "news",
+"pyAlt": [
+"xínwēn",
+"xínwèn",
+"xīnwēn"
+]
+},
+{
+"id": "L3-246",
+"lv": 3,
+"hz": "新鲜",
+"py": "xīnxiān",
+"tones": [
+1,
+1
+],
+"def": "fresh (experience, food, etc.); new; novel",
+"pyAlt": [
+"xínxiǎn",
+"xīnxián",
+"xínxiàn"
+]
+},
+{
+"id": "L3-247",
+"lv": 3,
+"hz": "信用卡",
+"py": "xìnyòngkǎ",
+"tones": [
+4,
+4,
+3
+],
+"def": "credit card",
+"pyAlt": [
+"xīnyǒngkǎ",
+"xínyòngkà",
+"xínyòngkǎ"
+]
+},
+{
+"id": "L3-248",
+"lv": 3,
+"hz": "行李箱",
+"py": "xínglǐxiāng",
+"tones": [
+2,
+3,
+1
+],
+"def": "trunk; suitcase",
+"pyAlt": [
+"xǐnglǐxiāng",
+"xínglìxiāng",
+"xīnglìxiāng"
+]
+},
+{
+"id": "L3-249",
+"lv": 3,
+"hz": "熊猫",
+"py": "xióngmāo",
+"tones": [
+2,
+1
+],
+"def": "panda",
+"pyAlt": [
+"xiǒngmáo",
+"xiǒngmǎo",
+"xióngmǎo"
+]
+},
+{
+"id": "L3-250",
+"lv": 3,
+"hz": "需要",
+"py": "xūyào",
+"tones": [
+1,
+4
+],
+"def": "to need; to want; to demand",
+"pyAlt": [
+"xūyáo",
+"xǔyáo",
+"xǔyào"
+]
+},
+{
+"id": "L3-251",
+"lv": 3,
+"hz": "选择",
+"py": "xuǎnzé",
+"tones": [
+3,
+2
+],
+"def": "select; to pick; choose",
+"pyAlt": [
+"xuānzě",
+"xuǎnzě",
+"xuànzě"
+]
+},
+{
+"id": "L3-252",
+"lv": 3,
+"hz": "要求",
+"py": "yāoqiú",
+"tones": [
+1,
+2
+],
+"def": "to request; to demand; requirement",
+"pyAlt": [
+"yǎoqiū",
+"yāoqiǔ",
+"yáoqiū"
+]
+},
+{
+"id": "L3-253",
+"lv": 3,
+"hz": "爷爷",
+"py": "yéye",
+"tones": [
+2,
+5
+],
+"def": "(informal) father's father; paternal grandfather",
+"pyAlt": [
+"yēyè",
+"yéyé",
+"yèyè"
+]
+},
+{
+"id": "L3-254",
+"lv": 3,
+"hz": "一般",
+"py": "yìbān",
+"tones": [
+4,
+1
+],
+"def": "general; ordinary; common",
+"pyAlt": [
+"yǐbān",
+"yíbǎn",
+"yībán"
+]
+},
+{
+"id": "L3-255",
+"lv": 3,
+"hz": "一边",
+"py": "yìbiān",
+"tones": [
+4,
+1
+],
+"def": "one side; on the one hand; at the same time",
+"pyAlt": [
+"yìbián",
+"yǐbián",
+"yìbiǎn"
+]
+},
+{
+"id": "L3-256",
+"lv": 3,
+"hz": "一定",
+"py": "yídìng",
+"tones": [
+2,
+4
+],
+"def": "surely; certainly; necessarily",
+"pyAlt": [
+"yīdǐng",
+"yídīng",
+"yǐdǐng"
+]
+},
+{
+"id": "L3-257",
+"lv": 3,
+"hz": "一共",
+"py": "yígòng",
+"tones": [
+2,
+4
+],
+"def": "altogether; in total",
+"pyAlt": [
+"yígǒng",
+"yǐgóng",
+"yīgǒng"
+]
+},
+{
+"id": "L3-258",
+"lv": 3,
+"hz": "一会儿",
+"py": "yíhuìr",
+"tones": [
+2,
+4,
+5
+],
+"def": "a while; a moment",
+"pyAlt": [
+"yìhuìr",
+"yīhuǐr",
+"yìhuǐr"
+]
+},
+{
+"id": "L3-259",
+"lv": 3,
+"hz": "一样",
+"py": "yíyàng",
+"tones": [
+2,
+4
+],
+"def": "the same; alike; equal to",
+"pyAlt": [
+"yīyǎng",
+"yìyàng",
+"yìyǎng"
+]
+},
+{
+"id": "L3-260",
+"lv": 3,
+"hz": "一直",
+"py": "yìzhí",
+"tones": [
+4,
+2
+],
+"def": "always; all along; straight (in a straight line)",
+"pyAlt": [
+"yízhǐ",
+"yízhí",
+"yīzhì"
+]
+},
+{
+"id": "L3-261",
+"lv": 3,
+"hz": "以前",
+"py": "yǐqián",
+"tones": [
+3,
+2
+],
+"def": "before; formerly; previous",
+"pyAlt": [
+"yìqiàn",
+"yǐqiǎn",
+"yīqiàn"
+]
+},
+{
+"id": "L3-262",
+"lv": 3,
+"hz": "音乐",
+"py": "yīnyuè",
+"tones": [
+1,
+4
+],
+"def": "music",
+"pyAlt": [
+"yīnyuě",
+"yìnyuě",
+"yìnyuē"
+]
+},
+{
+"id": "L3-263",
+"lv": 3,
+"hz": "银行",
+"py": "yínháng",
+"tones": [
+2,
+2
+],
+"def": "bank",
+"pyAlt": [
+"yìnháng",
+"yìnhàng",
+"yǐnhàng"
+]
+},
+{
+"id": "L3-264",
+"lv": 3,
+"hz": "饮料",
+"py": "yǐnliào",
+"tones": [
+3,
+4
+],
+"def": "beverage; drink",
+"pyAlt": [
+"yìnliāo",
+"yìnliào",
+"yìnliáo"
+]
+},
+{
+"id": "L3-265",
+"lv": 3,
+"hz": "应该",
+"py": "yīnggāi",
+"tones": [
+1,
+1
+],
+"def": "should; ought to; must",
+"pyAlt": [
+"yínggāi",
+"yínggài",
+"yǐnggǎi"
+]
+},
+{
+"id": "L3-266",
+"lv": 3,
+"hz": "影响",
+"py": "yǐngxiǎng",
+"tones": [
+3,
+3
+],
+"def": "influence; affect; effect",
+"pyAlt": [
+"yīngxiāng",
+"yìngxiāng",
+"yīngxiàng"
+]
+},
+{
+"id": "L3-267",
+"lv": 3,
+"hz": "用",
+"py": "yòng",
+"tones": [
+4
+],
+"def": "to use",
+"pyAlt": [
+"yōng",
+"yǒng",
+"yóng"
+]
+},
+{
+"id": "L3-268",
+"lv": 3,
+"hz": "游戏",
+"py": "yóuxì",
+"tones": [
+2,
+4
+],
+"def": "game; play; recreation",
+"pyAlt": [
+"yōuxī",
+"yóuxí",
+"yōuxǐ"
+]
+},
+{
+"id": "L3-269",
+"lv": 3,
+"hz": "有名",
+"py": "yǒumíng",
+"tones": [
+3,
+2
+],
+"def": "famous; well-known",
+"pyAlt": [
+"yǒumìng",
+"yǒumǐng",
+"yōumǐng"
+]
+},
+{
+"id": "L3-270",
+"lv": 3,
+"hz": "又",
+"py": "yòu",
+"tones": [
+4
+],
+"def": "again; both… and… (又…又…)",
+"pyAlt": [
+"yōu",
+"yóu",
+"yǒu"
+]
+},
+{
+"id": "L3-271",
+"lv": 3,
+"hz": "遇到",
+"py": "yùdào",
+"tones": [
+4,
+4
+],
+"def": "to meet; run into; come across",
+"pyAlt": [
+"yūdǎo",
+"yúdǎo",
+"yǔdào"
+]
+},
+{
+"id": "L3-272",
+"lv": 3,
+"hz": "元",
+"py": "yuán",
+"tones": [
+2
+],
+"def": "yuan (Chinese currency)",
+"pyAlt": [
+"yuān",
+"yuàn",
+"yuǎn"
+]
+},
+{
+"id": "L3-273",
+"lv": 3,
+"hz": "愿意",
+"py": "yuànyì",
+"tones": [
+4,
+4
+],
+"def": "be willing; want to; be ready",
+"pyAlt": [
+"yuànyǐ",
+"yuànyí",
+"yuānyì"
+]
+},
+{
+"id": "L3-274",
+"lv": 3,
+"hz": "月亮",
+"py": "yuèliang",
+"tones": [
+4,
+5
+],
+"def": "the moon",
+"pyAlt": [
+"yuēliang",
+"yuéliáng",
+"yuēliàng"
+]
+},
+{
+"id": "L3-275",
+"lv": 3,
+"hz": "越",
+"py": "yuè",
+"tones": [
+4
+],
+"def": "even more; the more; exceed",
+"pyAlt": [
+"yuě",
+"yuē",
+"yué"
+]
+},
+{
+"id": "L3-276",
+"lv": 3,
+"hz": "站",
+"py": "zhàn",
+"tones": [
+4
+],
+"def": "stand; a station; be on one's feet",
+"pyAlt": [
+"zhǎn",
+"zhán",
+"zhān"
+]
+},
+{
+"id": "L3-277",
+"lv": 3,
+"hz": "张",
+"py": "zhāng",
+"tones": [
+1
+],
+"def": "(mw for flat objects); to spread out; (common surname)",
+"pyAlt": [
+"zhàng",
+"zháng",
+"zhǎng"
+]
+},
+{
+"id": "L3-278",
+"lv": 3,
+"hz": "长",
+"py": "zhǎng",
+"tones": [
+3
+],
+"def": "to grow; chief; head",
+"pyAlt": [
+"zhàng",
+"zhāng",
+"zháng"
+]
+},
+{
+"id": "L3-279",
+"lv": 3,
+"hz": "着急",
+"py": "zháojí",
+"tones": [
+2,
+2
+],
+"def": "to worry; feel anxious",
+"pyAlt": [
+"zhǎojì",
+"zhǎojī",
+"zhāojī"
+]
+},
+{
+"id": "L3-280",
+"lv": 3,
+"hz": "照顾",
+"py": "zhàogu",
+"tones": [
+4,
+5
+],
+"def": "take care of; look after; give consideration",
+"pyAlt": [
+"zháogú",
+"zháogǔ",
+"zhǎogu"
+]
+},
+{
+"id": "L3-281",
+"lv": 3,
+"hz": "照片",
+"py": "zhàopiàn",
+"tones": [
+4,
+4
+],
+"def": "picture; photograph",
+"pyAlt": [
+"zhàopián",
+"zhàopiān",
+"zhǎopián"
+]
+},
+{
+"id": "L3-282",
+"lv": 3,
+"hz": "照相机",
+"py": "zhàoxiàngjī",
+"tones": [
+4,
+4,
+1
+],
+"def": "camera",
+"pyAlt": [
+"zhāoxiángjī",
+"zhàoxiàngjì",
+"zhāoxiángjí"
+]
+},
+{
+"id": "L3-283",
+"lv": 3,
+"hz": "只",
+"py": "zhǐ",
+"tones": [
+3
+],
+"def": "only; just",
+"pyAlt": [
+"zhī",
+"zhí",
+"zhì"
+]
+},
+{
+"id": "L3-284",
+"lv": 3,
+"hz": "只有",
+"py": "zhǐyǒu",
+"tones": [
+3,
+3
+],
+"def": "only if (只有…才)",
+"pyAlt": [
+"zhǐyōu",
+"zhīyóu",
+"zhìyǒu"
+]
+},
+{
+"id": "L3-285",
+"lv": 3,
+"hz": "才",
+"py": "cái",
+"tones": [
+2
+],
+"def": "only then; (not until); just",
+"pyAlt": [
+"cài",
+"cāi",
+"cǎi"
+]
+},
+{
+"id": "L3-286",
+"lv": 3,
+"hz": "中间",
+"py": "zhōngjiān",
+"tones": [
+1,
+1
+],
+"def": "center; middle; between",
+"pyAlt": [
+"zhǒngjiǎn",
+"zhòngjiǎn",
+"zhōngjiǎn"
+]
+},
+{
+"id": "L3-287",
+"lv": 3,
+"hz": "中文",
+"py": "Zhōngwén",
+"tones": [
+1,
+2
+],
+"def": "Chinese (language)",
+"pyAlt": [
+"zhǒngwēn",
+"zhóngwěn",
+"zhōngwèn"
+]
+},
+{
+"id": "L3-288",
+"lv": 3,
+"hz": "终于",
+"py": "zhōngyú",
+"tones": [
+1,
+2
+],
+"def": "at last; in the end; finally",
+"pyAlt": [
+"zhóngyū",
+"zhōngyǔ",
+"zhóngyǔ"
+]
+},
+{
+"id": "L3-289",
+"lv": 3,
+"hz": "种",
+"py": "zhǒng",
+"tones": [
+3
+],
+"def": "kind; type; sort",
+"pyAlt": [
+"zhòng",
+"zhōng",
+"zhóng"
+]
+},
+{
+"id": "L3-290",
+"lv": 3,
+"hz": "重要",
+"py": "zhòngyào",
+"tones": [
+4,
+4
+],
+"def": "important; significant; major",
+"pyAlt": [
+"zhǒngyào",
+"zhǒngyāo",
+"zhóngyǎo"
+]
+},
+{
+"id": "L3-291",
+"lv": 3,
+"hz": "周末",
+"py": "zhōumò",
+"tones": [
+1,
+4
+],
+"def": "weekend",
+"pyAlt": [
+"zhóumò",
+"zhǒumó",
+"zhóumó"
+]
+},
+{
+"id": "L3-292",
+"lv": 3,
+"hz": "主要",
+"py": "zhǔyào",
+"tones": [
+3,
+4
+],
+"def": "main; principal; major",
+"pyAlt": [
+"zhúyào",
+"zhùyāo",
+"zhǔyāo"
+]
+},
+{
+"id": "L3-293",
+"lv": 3,
+"hz": "注意",
+"py": "zhùyì",
+"tones": [
+4,
+4
+],
+"def": "pay attention to; take notice of; be careful",
+"pyAlt": [
+"zhūyí",
+"zhūyī",
+"zhǔyī"
+]
+},
+{
+"id": "L3-294",
+"lv": 3,
+"hz": "自己",
+"py": "zìjǐ",
+"tones": [
+4,
+3
+],
+"def": "oneself; self",
+"pyAlt": [
+"zījī",
+"zǐjī",
+"zījí"
+]
+},
+{
+"id": "L3-295",
+"lv": 3,
+"hz": "自行车",
+"py": "zìxíngchē",
+"tones": [
+4,
+2,
+1
+],
+"def": "bike; bicycle",
+"pyAlt": [
+"zíxǐngchè",
+"zìxìngchē",
+"zíxíngchē"
+]
+},
+{
+"id": "L3-296",
+"lv": 3,
+"hz": "总是",
+"py": "zǒngshì",
+"tones": [
+3,
+4
+],
+"def": "always; eventually",
+"pyAlt": [
+"zóngshí",
+"zòngshí",
+"zòngshì"
+]
+},
+{
+"id": "L3-297",
+"lv": 3,
+"hz": "嘴",
+"py": "zuǐ",
+"tones": [
+3
+],
+"def": "mouth",
+"pyAlt": [
+"zuì",
+"zuī",
+"zuí"
+]
+},
+{
+"id": "L3-298",
+"lv": 3,
+"hz": "最后",
+"py": "zuìhòu",
+"tones": [
+4,
+4
+],
+"def": "last; final; ultimately",
+"pyAlt": [
+"zuíhōu",
+"zuìhóu",
+"zuīhǒu"
+]
+},
+{
+"id": "L3-299",
+"lv": 3,
+"hz": "最近",
+"py": "zuìjìn",
+"tones": [
+4,
+4
+],
+"def": "recently; lately; these days",
+"pyAlt": [
+"zuíjìn",
+"zuījín",
+"zuǐjín"
+]
+},
+{
+"id": "L3-300",
+"lv": 3,
+"hz": "作业",
+"py": "zuòyè",
+"tones": [
+4,
+4
+],
+"def": "school assignment; homework; task",
+"pyAlt": [
+"zuóyě",
+"zuōyè",
+"zuóyē"
+]
+}
+]
