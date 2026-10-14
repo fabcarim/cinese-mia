@@ -1,7 +1,7 @@
 /* Service worker: l'app funziona offline.
-   - Guscio (html, js, css, dati): pronto subito, aggiornato in background quando c'è rete.
+   - Guscio (html, js, css, dati): pronto subito, dalla rete quando c'è, dalla cache offline.
    - Audio e tratti: scaricati dalla pagina in 'cinese-media-v1' (vedi syncMedia in app.js). */
-const SHELL = 'cinese-shell-v2';
+const SHELL = 'cinese-shell-v3';
 const MEDIA = 'cinese-media-v1';
 const SHELL_FILES = [
   './', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest',
@@ -38,14 +38,18 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Guscio: risponde dalla cache e aggiorna in background (stale-while-revalidate).
+  // Guscio: prima la rete (così gli aggiornamenti arrivano subito), la cache se offline
+  // o se la rete non risponde entro 3 secondi.
   e.respondWith(caches.open(SHELL).then(async c => {
     const key = req.mode === 'navigate' ? 'index.html' : req;
-    const hit = await c.match(key, { ignoreSearch: req.mode === 'navigate' });
-    const net = fetch(req).then(res => {
+    const net = fetch(req, { cache: 'no-cache' }).then(res => {
       if (res.ok) c.put(key, res.clone());
       return res;
     }).catch(() => null);
+    const timeout = new Promise(r => setTimeout(() => r(null), 3000));
+    const res = await Promise.race([net, timeout]);
+    if (res) return res;
+    const hit = await c.match(key, { ignoreSearch: req.mode === 'navigate' });
     if (hit) { e.waitUntil(net); return hit; }
     return (await net) || new Response('Offline', { status: 503 });
   }));
