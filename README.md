@@ -10,7 +10,7 @@ Aprila una volta con la connessione e aspetta il messaggio «Pronta per l’uso 
 ## Cosa fa
 - **Sessione di oggi** (10–15 min): parole nuove + ripassi in ripetizione spaziata, scrittura, ascolto, riordino, orale.
   Il carico giornaliero si calcola da solo verso il 7 novembre (giorni di viaggio = metà carico).
-- **Vocaboli HSK 3 senza pinyin**: il pinyin compare solo dopo la risposta. Ogni parola deve superare prove diverse
+- **Vocaboli senza pinyin** (tutti i livelli): il pinyin compare solo dopo la risposta. Ogni parola deve superare prove diverse
   (significato, tono, ascolto, significato→carattere) e conta la **velocità** di risposta.
 - **Ascolto**: frasi, dialoghi HSK 2/3 e vero/falso nel formato d’esame (ogni registrazione due volte).
 - **Scrittura**: carattere mancante dato il pinyin (con ordine dei tratti), riordino delle frasi.

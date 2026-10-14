@@ -1,7 +1,7 @@
 /* Service worker: l'app funziona offline.
    - Guscio (html, js, css, dati): pronto subito, aggiornato in background quando c'è rete.
    - Audio e tratti: scaricati dalla pagina in 'cinese-media-v1' (vedi syncMedia in app.js). */
-const SHELL = 'cinese-shell-v1';
+const SHELL = 'cinese-shell-v2';
 const MEDIA = 'cinese-media-v1';
 const SHELL_FILES = [
   './', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest',

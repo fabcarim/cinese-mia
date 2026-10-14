@@ -291,7 +291,7 @@ function renderTrain() {
   const tiles = [
     ['Vocaboli', [
       ['fc3', 'Flashcard HSK 3', 'Senza pinyin, come all’esame'],
-      ['fc12', 'Flashcard HSK 1–2', 'Con pinyin, ripasso della base'],
+      ['fc12', 'Flashcard HSK 1–2', 'Ripasso della base, senza pinyin'],
       ['hard', 'Parole difficili', 'Quelle sbagliate più spesso'],
     ]],
     ['Ascolto · 听力', [
@@ -506,7 +506,7 @@ const RENDER = {
   },
 
   srs(it, box) {
-    const w = it.w, kind = it.kind, lv3 = w.lv === 3;
+    const w = it.w, kind = it.kind;
     const isNew = !S.srs[w.id];
     const tag = isNew ? '<span class="pill">nuova</span> ' : it.retry ? '<span class="pill">di nuovo</span> ' : '';
     const done = (ok, ms) => {
@@ -518,7 +518,7 @@ const RENDER = {
     };
     if (kind === 'read') {
       box.innerHTML = `<div class="kind">${tag}${KIND_LABEL.read}</div>
-        <div class="prompt"><div class="hz-big" lang="zh-CN">${esc(w.hz)}</div>${lv3 ? '' : `<div class="py">${esc(w.py)}</div>`}</div>`;
+        <div class="prompt"><div class="hz-big" lang="zh-CN">${esc(w.hz)}</div></div>`;
       const opts = defOptions(w);
       choice(box, opts.map(o => esc(o.def)), opts.indexOf(w), done);
     } else if (kind === 'tone') {
@@ -530,7 +530,7 @@ const RENDER = {
       box.innerHTML = `<div class="kind">${tag}${KIND_LABEL.listen}</div>
         <div class="prompt"><button class="speak" id="rep" aria-label="Riascolta">▶</button></div>`;
       const opts = hzOptions(w);
-      const c = choice(box, opts.map(o => lv3 ? zh(o.hz) : `${zh(o.hz)}<small>${esc(o.py)}</small>`), opts.indexOf(w), done, { cls: 'zh' });
+      const c = choice(box, opts.map(o => zh(o.hz)), opts.indexOf(w), done, { cls: 'zh' });
       const a = `audio/w/${w.id}.mp3`;
       play(a).then(() => c.restart());
       $('#rep').onclick = () => play(a);
@@ -538,7 +538,7 @@ const RENDER = {
       box.innerHTML = `<div class="kind">${tag}${KIND_LABEL.mean}</div>
         <div class="prompt"><div class="en-big">${esc(w.def)}</div></div>`;
       const opts = hzOptions(w);
-      choice(box, opts.map(o => lv3 ? zh(o.hz) : `${zh(o.hz)}<small>${esc(o.py)}</small>`), opts.indexOf(w), done, { cls: 'zh' });
+      choice(box, opts.map(o => zh(o.hz)), opts.indexOf(w), done, { cls: 'zh' });
     }
   },
 
