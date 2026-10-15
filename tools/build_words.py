@@ -125,6 +125,9 @@ def clean_def(d):
 
 def main():
     rng = random.Random(7)
+    # Pagina del PDF hanzistroke "HSK 2.0 Level 3" (1-14) in cui compare ogni parola HSK 3:
+    # Mia studia una pagina al giorno da quel PDF.
+    pdf_pages = json.loads((ROOT / "tools" / "pdf_pages.json").read_text(encoding="utf-8"))
     words = []
     for level in (1, 2, 3):
         src = ROOT / "tools" / f"hsk2012_L{level}.txt"
@@ -152,6 +155,8 @@ def main():
                 "def": clean_def(definition),
                 "pyAlt": tone_distractors(sylls, rng),
             })
+            if level == 3:
+                words[-1]["pg"] = pdf_pages[words[-1]["id"]]
     counts = {lv: sum(1 for w in words if w["lv"] == lv) for lv in (1, 2, 3)}
     out = ROOT / "data" / "words.json"
     out.write_text(json.dumps(words, ensure_ascii=False, indent=0), encoding="utf-8")

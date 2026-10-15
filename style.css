@@ -212,3 +212,15 @@ label.field { display: flex; flex-direction: column; gap: 4px; font-size: 14px; 
 .pill { display: inline-block; padding: 2px 9px; border-radius: 99px; font-size: 13px; background: var(--accent-soft); color: var(--accent); font-weight: 600; }
 .pill.ok { background: var(--ok-soft); color: var(--ok); }
 .offline-bar { font-size: 14px; }
+
+/* Pagine: scrittura parola intera e foglio libero */
+.writer-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 14px 0; }
+.writer-row .writer { width: min(220px, 40vw); height: min(220px, 40vw); }
+.writer.pad { position: relative; overflow: hidden; }
+.writer.pad canvas { position: absolute; inset: 0; touch-action: none; }
+.ghost-hz {
+  position: absolute; inset: 0; display: grid; place-items: center; pointer-events: none;
+  font-family: "Kaiti SC", "STKaiti", "KaiTi", var(--zh); font-size: min(170px, 31vw); line-height: 1;
+  color: var(--ink); opacity: 0; transition: opacity .2s;
+}
+.ghost-hz.on { opacity: .16; }

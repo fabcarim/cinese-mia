@@ -8,6 +8,8 @@ App web installabile (PWA) per preparare **HSK 2, HSK 3 e HSKK elementare** — 
 Aprila una volta con la connessione e aspetta il messaggio «Pronta per l’uso offline».
 
 ## Cosa fa
+- **Pagine del PDF** (una al giorno): le 300 parole HSK 3 divise come nelle 14 pagine del PDF hanzistroke.
+  Per ogni pagina: flashcard (anche al contrario), quiz, scrittura con controllo dei tratti e foglio libero per scrivere a mano.
 - **Sessione di oggi** (10–15 min): parole nuove + ripassi in ripetizione spaziata, scrittura, ascolto, riordino, orale.
   Il carico giornaliero si calcola da solo verso il 7 novembre (giorni di viaggio = metà carico).
 - **Vocaboli senza pinyin** (tutti i livelli): il pinyin compare solo dopo la risposta. Ogni parola deve superare prove diverse

@@ -39,7 +39,7 @@ const today = () => dayNum();
 function fmtDay(n) { return new Date(n * 864e5).toLocaleDateString('it-IT', { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'UTC' }); }
 
 /* ---------- stato ---------- */
-function freshState() { return { v: 1, srs: {}, wr: {}, pool: {}, log: {}, settings: { travel: [], speed: 1 } }; }
+function freshState() { return { v: 1, srs: {}, wr: {}, pool: {}, log: {}, pages: {}, settings: { travel: [], speed: 1, page: 1 } }; }
 function load() {
   try { S = JSON.parse(localStorage.getItem(LS_KEY)) || freshState(); } catch { S = freshState(); }
   const f = freshState();
@@ -230,7 +230,7 @@ function go(v) {
   view = v;
   $$('#tabs button').forEach(b => b.classList.toggle('on', b.dataset.view === v));
   window.scrollTo(0, 0);
-  ({ home: renderHome, train: renderTrain, progress: renderProgress, settings: renderSettings })[v]();
+  ({ home: renderHome, train: renderTrain, progress: renderProgress, settings: renderSettings, page: () => renderPage(S.settings.page) })[v]();
 }
 
 /* ---------- OGGI ---------- */
@@ -250,6 +250,7 @@ function renderHome() {
         <div class="muted small">sabato 7 novembre · HSK 2 alle 9:00 · HSK 3 alle 13:30 · HSKK alle 15:40</div></div>
       </div>
     </section>
+    ${pageCard()}
     <section class="card">
       <h2>Sessione di oggi <span class="muted small">· circa ${minutes} minuti</span></h2>
       <ul class="plan">
@@ -271,6 +272,7 @@ function renderHome() {
     </section>
     <div id="offline"></div>`;
   $('#start').onclick = () => startSession(buildDaily());
+  bindPageCard();
   renderOfflineBar();
 }
 function barBlock(label, s) {
@@ -312,11 +314,15 @@ function renderTrain() {
       ['ksim', 'Simulazione HSKK', 'Le 3 parti di fila, come all’esame'],
     ]],
   ];
-  app().innerHTML = tiles.map(([title, ts]) => `
+  app().innerHTML = `<div class="section-title">Pagine del PDF HSK 3 · una al giorno</div>
+    <div class="grid3">${pageNums().map(p => { const st = pageStats(p); return `<button class="tile" data-page="${p}">
+      <b>Pagina ${p} ${S.pages[p] && S.pages[p].quiz ? '<span class="pill ok">✓</span>' : ''}</b>
+      <span lang="zh-CN">${esc(pageWords(p)[0].hz)} … ${esc(pageWords(p).slice(-1)[0].hz)}</span><br><span>${st.solid}/${st.total} consolidate</span></button>`; }).join('')}</div>` + tiles.map(([title, ts]) => `
     <div class="section-title">${title}</div>
     <div class="grid3">${ts.map(([id, b, s]) => `<button class="tile" data-mode="${id}"><b>${b}</b><span>${s}</span></button>`).join('')}</div>`).join('') +
     `<p class="muted small" style="margin-top:18px">L’allenamento libero aggiorna gli stessi progressi della sessione di oggi.</p>`;
   $$('[data-mode]').forEach(b => b.onclick = () => startMode(b.dataset.mode));
+  $$('[data-page]').forEach(b => b.onclick = () => renderPage(+b.dataset.page));
 }
 function startMode(m) {
   const L = C.listen, K = C.hskk;
@@ -404,9 +410,9 @@ function buildDaily() {
 }
 
 /* ---------- motore della sessione ---------- */
-function startSession(items) {
+function startSession(items, opts = {}) {
   if (!items.length) return toast('Per oggi è tutto fatto!');
-  SESS = { items, i: 0, n: 0, ok: 0, t0: Date.now(), retried: new Set() };
+  SESS = { items, i: 0, n: 0, ok: 0, t0: Date.now(), retried: new Set(), ...opts };
   document.body.classList.add('in-session');
   nextItem();
 }
@@ -417,7 +423,9 @@ function endSession(showSummary = true) {
   logToday().sec += sec; save();
   const s = SESS; SESS = null;
   document.body.classList.remove('in-session');
+  if (s.onEnd) s.onEnd(s);
   if (!showSummary) return;
+  if (s.page) return renderPage(s.page, s.n - s.ok ? `Fatto! ${s.n - s.ok} errori, tutti ripassati finché non erano giusti.` : `Fatto! ${s.n} risposte, nessun errore.`);
   const p3 = newPlan(3);
   app().innerHTML = `<section class="card" style="text-align:center">
     <div class="hz-mid" lang="zh-CN">做得好！</div>
@@ -437,17 +445,18 @@ function nextItem() {
   app().innerHTML = `<div class="sess-head"><button class="x" id="quit" aria-label="Esci">×</button>
     <div class="bar"><i style="width:${pc}%"></i></div><span class="muted small">${SESS.i + 1}/${SESS.items.length}</span></div>
     <section class="card" id="ex"></section>`;
-  $('#quit').onclick = () => { endSession(false); go('home'); };
+  $('#quit').onclick = () => { const p = SESS.page; endSession(false); p ? renderPage(p) : go('home'); };
   window.scrollTo(0, 0);
   RENDER[it.t](it, $('#ex'));
 }
 // Chiude un esercizio: aggiorna il conteggio e mostra il pulsante per andare avanti.
 function finish(it, ok, box, extraBtn) {
   SESS.n++; if (ok) SESS.ok++;
-  if (!ok && it.t === 'srs' && !it.retry && !SESS.retried.has(it.w.id)) {
+  if (!ok && it.loop) SESS.items.push({ ...it, retry: true }); // pagina: torna finché non è giusta
+  else if (!ok && it.t === 'srs' && !it.retry && !SESS.retried.has(it.w.id)) {
     SESS.retried.add(it.w.id);
     const pos = Math.min(SESS.items.length, SESS.i + 4);
-    SESS.items.splice(pos, 0, { t: 'srs', w: it.w, kind: it.w.lv === 3 ? 'read' : 'read', retry: true });
+    SESS.items.splice(pos, 0, { t: 'srs', w: it.w, kind: 'read', retry: true });
   }
   const row = document.createElement('div');
   row.className = 'next-row';
@@ -786,6 +795,224 @@ function selfRate(box, it, id) {
     r.remove();
     finish(it, ok, box);
   });
+}
+
+/* ---------- pagine del PDF HSK 3 (una al giorno) ---------- */
+const pageWords = p => W.filter(w => w.pg === p);
+const pageNums = () => [...new Set(W.filter(w => w.pg).map(w => w.pg))].sort((a, b) => a - b);
+function pageStats(p) {
+  const ws = pageWords(p);
+  return { total: ws.length, solid: ws.filter(w => S.srs[w.id] && S.srs[w.id].b >= SOLID).length, seen: ws.filter(w => S.srs[w.id]).length };
+}
+function setPage(p) { S.settings.page = Math.max(1, Math.min(pageNums().length, p)); save(); }
+function pageCard() {
+  const p = S.settings.page, ws = pageWords(p), st = pageStats(p), done = S.pages[p] && S.pages[p].quiz;
+  return `<section class="card">
+    <div class="row" style="justify-content:space-between"><h2 style="margin:0">Pagina del giorno</h2>
+      <div class="row" style="gap:6px"><button class="btn ghost" id="pgPrev" aria-label="Pagina precedente">‹</button>
+      <b>Pagina ${p} / ${pageNums().length}</b><button class="btn ghost" id="pgNext" aria-label="Pagina successiva">›</button></div></div>
+    <p lang="zh-CN" style="font-size:20px;margin:10px 0 4px">${ws.slice(0, 8).map(w => esc(w.hz)).join('　')} …</p>
+    <p class="muted small" style="margin:0 0 12px">${ws.length} parole del PDF · ${st.solid} consolidate ${done ? `· <span class="pill ok">quiz fatto ${fmtDay(dayFromISO(done))}</span>` : ''}</p>
+    <div class="grid2"><button class="btn primary" id="pgOpen">Apri la pagina</button><button class="btn" id="pgFlash">Flashcard</button></div>
+  </section>`;
+}
+function bindPageCard() {
+  $('#pgPrev').onclick = () => { setPage(S.settings.page - 1); renderHome(); };
+  $('#pgNext').onclick = () => { setPage(S.settings.page + 1); renderHome(); };
+  $('#pgOpen').onclick = () => renderPage(S.settings.page);
+  $('#pgFlash').onclick = () => startPageFlash(S.settings.page, 'hz');
+}
+function renderPage(p, note) {
+  if (SESS) endSession(false);
+  setPage(p);
+  p = S.settings.page;
+  view = 'page';
+  $$('#tabs button').forEach(b => b.classList.toggle('on', b.dataset.view === 'train'));
+  const ws = pageWords(p), st = pageStats(p), last = pageNums().length;
+  const dot = w => { const x = S.srs[w.id]; return !x ? '<span class="muted">·</span>' : x.b >= SOLID ? '<span style="color:var(--ok)">●</span>' : '<span style="color:var(--warn)">●</span>'; };
+  app().innerHTML = `
+    <div class="sess-head"><button class="x" id="back" aria-label="Indietro">×</button>
+      <h2 style="margin:0;flex:1">Pagina ${p} del PDF</h2>
+      <button class="btn ghost" id="prev" ${p <= 1 ? 'disabled' : ''}>‹</button><button class="btn ghost" id="next" ${p >= last ? 'disabled' : ''}>›</button></div>
+    ${note ? `<section class="card feedback ok" style="margin-top:0">${esc(note)}</section>` : ''}
+    <section class="card">
+      <p class="muted small" style="margin-top:0">${ws.length} parole · ${st.solid} consolidate · ${st.seen} già viste. Le stesse parole, nello stesso ordine, della pagina ${p} del PDF.</p>
+      <div class="grid2">
+        <button class="tile" id="mFlash"><b>Flashcard</b><span>Carattere davanti: pensa, gira la carta, dì se la sapevi</span></button>
+        <button class="tile" id="mFlashR"><b>Flashcard al contrario</b><span>Significato davanti: ricorda il carattere</span></button>
+        <button class="tile" id="mQuiz"><b>Quiz della pagina</b><span>Significato, tono e ascolto, senza pinyin. Le sbagliate tornano finché non sono giuste</span></button>
+        <button class="tile" id="mWrite"><b>Scrittura della pagina</b><span>Scrivi ogni parola: l’app controlla i tratti</span></button>
+        <button class="tile" id="mPad"><b>Foglio libero</b><span>Spazio per scrivere a mano, senza correzione</span></button>
+        <button class="tile" id="mWriteG"><b>Scrittura con guida</b><span>Prima volta: ricalca i caratteri sul modello</span></button>
+      </div>
+    </section>
+    <section class="card"><table>
+      <tr><th></th><th>Parola</th><th>Pinyin</th><th>Significato</th><th></th></tr>
+      ${ws.map(w => `<tr><td>${dot(w)}</td><td>${zh(w.hz)}</td><td>${esc(w.py)}</td><td>${esc(w.def)}</td>
+        <td>${hasMedia(`audio/w/${w.id}.mp3`) ? `<button class="speak sm" data-play="audio/w/${w.id}.mp3" aria-label="Ascolta">▶</button>` : ''}</td></tr>`).join('')}
+    </table>
+    <div class="legend"><span><i style="background:var(--ok)"></i>consolidata</span><span><i style="background:var(--warn)"></i>in corso</span><span>· non ancora vista</span></div></section>`;
+  bindPlays(app());
+  $('#back').onclick = () => go('train');
+  $('#prev').onclick = () => renderPage(p - 1);
+  $('#next').onclick = () => renderPage(p + 1);
+  $('#mFlash').onclick = () => startPageFlash(p, 'hz');
+  $('#mFlashR').onclick = () => startPageFlash(p, 'def');
+  $('#mQuiz').onclick = () => startPageQuiz(p);
+  $('#mWrite').onclick = () => startPageWrite(p, false);
+  $('#mWriteG').onclick = () => startPageWrite(p, true);
+  $('#mPad').onclick = () => renderPad(p, 0);
+  window.scrollTo(0, 0);
+}
+function startPageFlash(p, dir) {
+  startSession(shuffle(pageWords(p)).map(w => ({ t: 'fc', w, dir })), { page: p });
+}
+function startPageQuiz(p) {
+  const ws = pageWords(p);
+  // Giro 1: significato per tutte (conta per la ripetizione spaziata). Giro 2: tono o ascolto.
+  const r1 = shuffle(ws).map(w => ({ t: 'srs', w, kind: 'read', loop: true }));
+  const r2 = shuffle(ws).map((w, i) => ({ t: 'srs', w, kind: i % 2 && hasMedia(`audio/w/${w.id}.mp3`) ? 'listen' : 'tone', loop: true, retry: true }));
+  startSession([...r1, ...r2], {
+    page: p,
+    onEnd: s => { if (s.i >= s.items.length) { S.pages[p] = { ...(S.pages[p] || {}), quiz: isoFromDay(today()) }; save(); } },
+  });
+}
+function startPageWrite(p, guide) {
+  startSession(pageWords(p).map(w => ({ t: 'pw', w, guide, loop: !guide })), { page: p });
+}
+function logAnswer(ok) { const lg = logToday(); lg.n++; if (ok) lg.ok++; save(); }
+
+RENDER.fc = (it, box) => {
+  const w = it.w, a = `audio/w/${w.id}.mp3`;
+  const front = it.dir === 'def'
+    ? `<div class="en-big">${esc(w.def)}</div><p class="muted small">Che parola è? Prova a scriverla con il dito prima di girare.</p>`
+    : `<div class="hz-big" lang="zh-CN">${esc(w.hz)}</div><p class="muted small">Come si legge e che cosa significa?</p>`;
+  box.innerHTML = `<div class="kind">Flashcard · pagina ${w.pg} ${it.retry ? '<span class="pill">di nuovo</span>' : ''}</div>
+    <div class="prompt">${front}</div>
+    <div class="next-row" id="fl"><button class="btn primary big" id="flip">Gira la carta</button></div>`;
+  $('#flip').onclick = () => {
+    $('#fl').remove();
+    if (hasMedia(a)) play(a);
+    const back = document.createElement('div');
+    back.className = 'feedback';
+    back.style.background = 'var(--accent-soft)';
+    back.innerHTML = wordCard(w);
+    box.appendChild(back);
+    bindPlays(back);
+    const row = document.createElement('div');
+    row.className = 'next-row';
+    row.innerHTML = `<button class="btn" id="no">✗ Non la sapevo</button><button class="btn primary" id="yes">✓ La sapevo</button>`;
+    box.appendChild(row);
+    row.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    const answer = ok => {
+      logAnswer(ok);
+      SESS.n++; if (ok) SESS.ok++;
+      if (!ok) SESS.items.push({ ...it, retry: true }); // torna in fondo al mazzo
+      SESS.i++; nextItem();
+    };
+    $('#no').onclick = () => answer(false);
+    $('#yes').onclick = () => answer(true);
+  };
+};
+
+RENDER.pw = (it, box) => {
+  const w = it.w, chars = [...w.hz], a = `audio/w/${w.id}.mp3`;
+  box.innerHTML = `<div class="kind">Scrittura · pagina ${w.pg} ${it.guide ? '<span class="pill">con guida</span>' : ''} ${it.retry ? '<span class="pill">di nuovo</span>' : ''}</div>
+    <div class="prompt"><div class="en-big">${esc(w.def)}</div>
+      <div class="py" style="font-size:22px">${esc(w.py)} ${hasMedia(a) ? `<button class="speak sm" data-play="${a}" aria-label="Ascolta">▶</button>` : ''}</div></div>
+    <div class="writer-row">${chars.map((c, i) => `<div class="writer" id="hw${i}"></div>`).join('')}</div>
+    <div class="next-row"><button class="btn" id="giveup">Non lo so: mostrami</button></div>`;
+  bindPlays(box);
+  const writers = chars.map((c, i) => makeWriter($('#hw' + i), c, { outline: it.guide }));
+  let i = 0, total = 0, gave = false;
+  const end = () => {
+    $('#giveup')?.parentElement.remove();
+    const ok = !gave && total <= 3 * chars.length;
+    if (writable(w)) gradeWrite(w, gave ? 99 : total); else logAnswer(ok);
+    feedback(box, ok, `<p>${gave ? 'Tornerà alla fine del giro.' : `Errori di tratto: ${total}.`}</p>${wordCard(w)}`,
+      gave ? 'Ecco come si scrive' : total <= chars.length ? 'Perfetto!' : ok ? 'Giusto, con qualche incertezza' : 'Da rifare');
+    finish(it, ok, box, `<button class="btn" id="again">Rivedi i tratti</button>`);
+    $('#again').onclick = async () => { for (const hw of writers) await new Promise(r => hw.animateCharacter({ onComplete: r })); };
+  };
+  const step = () => {
+    if (i >= chars.length) return end();
+    writers[i].quiz({ showHintAfterMisses: it.guide ? 1 : 3, highlightOnComplete: true, onComplete: r => { total += r.totalMistakes; i++; step(); } });
+  };
+  step();
+  $('#giveup').onclick = () => {
+    gave = true;
+    writers.forEach(hw => { hw.cancelQuiz(); hw.showCharacter(); });
+    end();
+  };
+};
+
+/* Foglio libero: si scrive a mano sulla griglia, senza correzione; il modello si può mostrare in trasparenza. */
+function renderPad(p, idx) {
+  if (SESS) endSession(false);
+  const ws = pageWords(p), w = ws[idx], chars = [...w.hz], a = `audio/w/${w.id}.mp3`;
+  view = 'page';
+  $$('#tabs button').forEach(b => b.classList.toggle('on', b.dataset.view === 'train'));
+  app().innerHTML = `
+    <div class="sess-head"><button class="x" id="back" aria-label="Torna alla pagina">×</button>
+      <h2 style="margin:0;flex:1">Foglio libero · pagina ${p}</h2><span class="muted small">${idx + 1}/${ws.length}</span></div>
+    <section class="card">
+      <div class="prompt" style="padding-top:4px"><div class="en-big">${esc(w.def)}</div>
+        <div class="py" style="font-size:22px">${esc(w.py)} ${hasMedia(a) ? `<button class="speak sm" data-play="${a}" aria-label="Ascolta">▶</button>` : ''}</div></div>
+      <div class="writer-row">${chars.map(c => `<div class="writer pad"><span class="ghost-hz" lang="zh-CN">${esc(c)}</span></div>`).join('')}</div>
+      <div class="next-row"><button class="btn" id="model">Mostra il modello</button><button class="btn" id="clear">Cancella</button></div>
+      <div class="next-row"><button class="btn" id="prev" ${idx <= 0 ? 'disabled' : ''}>‹ Precedente</button><button class="btn primary" id="next">${idx < ws.length - 1 ? 'Successiva ›' : 'Fine'}</button></div>
+      <p class="muted small" style="text-align:center">Scrivi senza guardare, poi premi «Mostra il modello» per confrontare o ricalcare. Con la Apple Pencil il palmo appoggiato viene ignorato.</p>
+    </section>`;
+  bindPlays(app());
+  const pads = $$('.pad').map(makePad);
+  let shown = false;
+  $('#model').onclick = () => {
+    shown = !shown;
+    $$('.ghost-hz').forEach(g => g.classList.toggle('on', shown));
+    $('#model').textContent = shown ? 'Nascondi il modello' : 'Mostra il modello';
+  };
+  $('#clear').onclick = () => pads.forEach(pd => pd.clear());
+  $('#prev').onclick = () => renderPad(p, idx - 1);
+  $('#next').onclick = () => idx < ws.length - 1 ? renderPad(p, idx + 1) : renderPage(p, 'Foglio libero finito: hai scritto tutte le parole della pagina.');
+  $('#back').onclick = () => renderPage(p);
+  window.scrollTo(0, 0);
+}
+function makePad(el) {
+  const cv = document.createElement('canvas');
+  el.appendChild(cv);
+  const ctx = cv.getContext('2d');
+  const size = el.clientWidth, dpr = window.devicePixelRatio || 1;
+  cv.width = size * dpr; cv.height = size * dpr;
+  cv.style.width = cv.style.height = size + 'px';
+  ctx.scale(dpr, dpr);
+  ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+  ctx.strokeStyle = ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--ink').trim();
+  let last = null, penSeen = false;
+  const pos = e => { const r = cv.getBoundingClientRect(); return { x: e.clientX - r.left, y: e.clientY - r.top }; };
+  const width = e => size / 34 * (e.pointerType === 'pen' ? 0.55 + (e.pressure || 0.5) * 0.9 : 1);
+  cv.addEventListener('pointerdown', e => {
+    if (e.pointerType === 'pen') penSeen = true;
+    if (penSeen && e.pointerType === 'touch') return; // palmo appoggiato mentre si usa la Pencil
+    cv.setPointerCapture(e.pointerId);
+    last = pos(e);
+    ctx.beginPath(); ctx.arc(last.x, last.y, width(e) / 2, 0, Math.PI * 2); ctx.fill();
+    e.preventDefault();
+  });
+  cv.addEventListener('pointermove', e => {
+    if (!last || !cv.hasPointerCapture(e.pointerId)) return;
+    const evs = e.getCoalescedEvents ? e.getCoalescedEvents() : [];
+    for (const ev of evs.length ? evs : [e]) {
+      const pt = pos(ev);
+      ctx.lineWidth = width(ev);
+      ctx.beginPath(); ctx.moveTo(last.x, last.y); ctx.lineTo(pt.x, pt.y); ctx.stroke();
+      last = pt;
+    }
+    e.preventDefault();
+  });
+  const up = () => { last = null; };
+  cv.addEventListener('pointerup', up);
+  cv.addEventListener('pointercancel', up);
+  return { clear() { ctx.clearRect(0, 0, size, size); } };
 }
 
 /* ---------- ordine dei tratti (libero) ---------- */
